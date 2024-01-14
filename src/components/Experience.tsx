@@ -2,14 +2,9 @@ import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
   return (
-    <div style={{ height: "50vh" }}>
-      <h2>Experiences</h2>
-      <div
-        style={{
-          display: "flex",
-          gap: "20px",
-        }}
-      >
+    <div className="py-32 px-10">
+      <h2 className="text-6xl pb-10">Experiences</h2>
+      <div className="flex gap-32">
         <ExperienceCard />
         <ExperienceCard />
       </div>

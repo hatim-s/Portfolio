@@ -1,28 +1,19 @@
 const Header = () => {
   return (
     <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "space-between",
-      }}
+      className="sticky top-0 grid grid-cols-3 gap-4 bg-red-100"
+      style={{ height: "10vh" }}
     >
-      <div className="logo">
-        <button>
-          <h5>hatimcodes</h5>
-        </button>
+      <div className="logo col-1 text-fuchsia-400 text-2xl font-semibold font-['Clash Display'] tracking-wide text-center self-center">
+        hatimcodes /
       </div>
-      <div
-        className="nav-buttons"
-        style={{
-          padding: "10px",
-        }}
-      >
-        <button>Home.</button>
-        <button>About me.</button>
-        <button>Experiences.</button>
-        <button>Skills.</button>
-        <button>Projects.</button>
+      {/* <button className=" font-bold">hatimcodes/</button> */}
+      <div className="nav-buttons col-span-2 flex">
+        <button className="flex-1">Home.</button>
+        <button className="flex-1">About me.</button>
+        <button className="flex-1">Experiences.</button>
+        <button className="flex-1">Skills.</button>
+        <button className="flex-1">Projects.</button>
       </div>
     </div>
   );

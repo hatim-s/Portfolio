@@ -1,16 +1,12 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 const About = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        height: "100vh",
-        alignItems: "center",
-      }}
-    >
-      <img src="https://placehold.co/600x400" style={{ flex: "1" }} />
-      <div style={{ flex: "1" }}>
-        <h2>About me</h2>
-        <p>
+    <div className="flex-1 py-32 px-10 grid grid-cols-5 gap-10">
+      <img className="col-span-2" src="https://placehold.co/600x400" />
+      <div className="col-span-3 grid grid-cols-2 items-center">
+        <h2 className="text-6xl col-span-2">About me</h2>
+        <p className="col-span-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
           provident explicabo alias, quidem eius cupiditate dolores et ratione
           assumenda ab aperiam voluptatum, similique vel. Unde perferendis est
@@ -23,9 +19,14 @@ const About = () => {
           numquam laudantium a illo deserunt neque. Qui et maiores minima
           provident quo accusantium nemo quasi quas?
         </p>
-        <button>[ig]</button>
-        <button>[gh]</button>
-        <button>[li]</button>
+        <div className="flex col-span-1 justify-evenly">
+          <button className="text-4xl">
+            <FaLinkedin />
+          </button>
+          <button className="text-4xl">
+            <FaGithub />
+          </button>
+        </div>
       </div>
     </div>
   );

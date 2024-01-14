@@ -1,11 +1,11 @@
 const ExperienceCard = () => {
   return (
-    <div style={{ display: "flex" }}>
-      <img src="https://placehold.co/200" />
+    <div className="flex rounded-2xl border-l border-t p-10">
+      <img className="pr-10" src="https://placehold.co/200" />
       <div>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <div>Company</div>
-          <div>02</div>
+        <div className="flex justify-between">
+          <div className="text-3xl">Company</div>
+          <div className="text-5xl">02</div>
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi,
