@@ -21,6 +21,7 @@ const ProjectCard = () => {
           <h2 className="text-5xl text-white">02</h2>
         </div>
         <p
+          className="pt-4"
           style={{
             color: "#F5C2FF",
           }}

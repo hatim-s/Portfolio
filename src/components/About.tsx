@@ -2,9 +2,14 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="flex-1 py-32 px-10 grid grid-cols-5 gap-10">
-      <img className="col-span-2" src="https://placehold.co/400" />
-      <div className="col-span-3 grid grid-cols-2 items-center">
+    <div
+      className="flex-1 my-32 mx-40 grid grid-cols-3 gap-10"
+      style={{
+        gridTemplateColumns: "auto repeat(2, fr)",
+      }}
+    >
+      <img className="col-span" src="https://placehold.co/400" />
+      <div className="col-span-2 grid grid-cols-2 items-center">
         <div>
           <h2 className="text-6xl inline text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
             About me

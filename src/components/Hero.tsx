@@ -1,11 +1,6 @@
 const Hero = () => {
   return (
-    <div
-      className="hero-section h-screen grid grid-cols-3 grid-rows-2 items-center py-32 px-40"
-      style={{
-        height: "100vh",
-      }}
-    >
+    <div className="hero-section grid grid-cols-3 grid-rows-2 items-center my-80 mx-40">
       <div className="text-section row-span-2 col-span-2 px-10">
         <div className="flex flex-wrap gap-6 items-center">
           <h1 className="flex-shrink-0 flex-grow-0 text-9xl text-white font-bold font-family-ClashDisplay-Bold">

@@ -7,22 +7,22 @@ const ExperienceCard = () => {
           "linear-gradient(180deg, rgba(57, 41, 94, 0.30) 0%, rgba(36, 32, 45, 0.30) 100%)",
       }}
     >
-      <img className="pr-10" src="https://placehold.co/200" />
+      <img className="pr-10" src="https://placehold.co/100" />
       <div>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-end">
           <h2
-            className="text-3xl"
+            className="text-3xl px-4"
             style={{
               color: "#E45FFD",
             }}
           >
             Company
           </h2>
-          <h2 className="text-5xl text-transparent bg-clip-text bg-gradient-to-b from-violet-600 to-violet-950">
-            02
-          </h2>
+          {/* text-transparent bg-clip-text bg-gradient-to-b from-violet-600 to-violet-950 */}
+          <h2 className="text-5xl px-4 text-white">02</h2>
         </div>
         <p
+          className="pt-4"
           style={{
             color: "#F5C2FF",
           }}
