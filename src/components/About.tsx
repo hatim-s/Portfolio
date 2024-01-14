@@ -3,10 +3,19 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const About = () => {
   return (
     <div className="flex-1 py-32 px-10 grid grid-cols-5 gap-10">
-      <img className="col-span-2" src="https://placehold.co/600x400" />
+      <img className="col-span-2" src="https://placehold.co/400" />
       <div className="col-span-3 grid grid-cols-2 items-center">
-        <h2 className="text-6xl col-span-2">About me</h2>
-        <p className="col-span-2">
+        <div>
+          <h2 className="text-6xl inline text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
+            About me
+          </h2>
+        </div>
+        <p
+          className="col-span-2"
+          style={{
+            color: "#F5C2FF",
+          }}
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
           provident explicabo alias, quidem eius cupiditate dolores et ratione
           assumenda ab aperiam voluptatum, similique vel. Unde perferendis est
@@ -20,10 +29,10 @@ const About = () => {
           provident quo accusantium nemo quasi quas?
         </p>
         <div className="flex col-span-1 justify-evenly">
-          <button className="text-4xl">
+          <button className="text-4xl text-white">
             <FaLinkedin />
           </button>
-          <button className="text-4xl">
+          <button className="text-4xl text-white">
             <FaGithub />
           </button>
         </div>

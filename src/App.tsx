@@ -7,14 +7,16 @@ import Skills from "./components/Skills";
 
 const App = () => {
   return (
-    <div className="bg-blue-500">
+    <>
       <Header />
-      <Hero />
-      <About />
-      <Experience />
-      <Skills />
-      <Projects />
-    </div>
+      <div style={{ background: "#10091D" }}>
+        <Hero />
+        <About />
+        <Experience />
+        <Skills />
+        <Projects />
+      </div>
+    </>
   );
 };
 
