@@ -11,17 +11,17 @@ const ProjectCard = () => {
       <div>
         <div className="flex justify-between">
           <h2
-            className="text-3xl"
+            className="text-3xl xl:text-5xl"
             style={{
               color: "#E45FFD",
             }}
           >
             Company
           </h2>
-          <h2 className="text-4xl text-white">02</h2>
+          <h2 className="text-4xl xl:text-6xl text-white">02</h2>
         </div>
         <p
-          className="pt-4"
+          className="pt-4 xl:text-2xl"
           style={{
             color: "#F5C2FF",
           }}

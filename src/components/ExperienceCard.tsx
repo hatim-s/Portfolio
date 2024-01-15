@@ -1,30 +1,30 @@
 const ExperienceCard = () => {
   return (
     <div
-      className="exp-card flex-1 p-4 sm:p-4 flex flex-col lg:flex-row gap-4 rounded-2xl border-l border-t border-fuchsia-200"
+      className="exp-card flex-1 p-4 xl:p-10 flex flex-col lg:flex-row gap-4 xl:gap-10 rounded-2xl border-l border-t border-fuchsia-200"
       style={{
         background:
           "linear-gradient(180deg, rgba(57, 41, 94, 0.30) 0%, rgba(36, 32, 45, 0.30) 100%)",
       }}
     >
       <img
-        className="sm:pb-0 mx-auto max-w-max"
-        src="https://placehold.co/100"
+        className="sm:pb-0 mx-auto max-w-24 xl:max-w-max"
+        src="https://placehold.co/150"
       />
       <div>
         <div className="flex justify-between items-end">
           <h2
-            className="text-3xl"
+            className="text-3xl xl:text-5xl"
             style={{
               color: "#E45FFD",
             }}
           >
             Company
           </h2>
-          <h2 className="text-4xl text-white">02</h2>
+          <h2 className="text-4xl xl:text-6xl text-white">02</h2>
         </div>
         <p
-          className="pt-4"
+          className="pt-4 xl:text-2xl"
           style={{
             color: "#F5C2FF",
           }}

@@ -92,6 +92,21 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Tabular";
+  src: url("https://db.onlinewebfonts.com/t/abc4384f4d05e2a0bfee33802003e4c3.eot");
+  src: url("https://db.onlinewebfonts.com/t/abc4384f4d05e2a0bfee33802003e4c3.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/abc4384f4d05e2a0bfee33802003e4c3.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/abc4384f4d05e2a0bfee33802003e4c3.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/abc4384f4d05e2a0bfee33802003e4c3.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/abc4384f4d05e2a0bfee33802003e4c3.svg#Tabular")
+      format("svg");
+}
+
 h1 {
   font-family: "ClashDisplay-Bold"; /* 700 */
 }

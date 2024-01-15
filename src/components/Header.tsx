@@ -1,12 +1,12 @@
 const Header = () => {
   return (
     <div
-      className="grid md:grid-cols-3 gap-4 p-8"
+      className="grid md:grid-cols-3 gap-4 p-8 lg:px-10 xl:px-16"
       style={{
         height: "15vh",
       }}
     >
-      <h2 className="logo col-1 text-fuchsia-400 text-3xl tracking-wide text-center self-center">
+      <h2 className="logo col-1 text-fuchsia-400 text-3xl xl:text-4xl tracking-wide text-center self-center xl:text-left xl:pl-20 text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
         hatimcodes/
       </h2>
       <div className="nav-buttons hidden md:flex col-span-2 flex-wrap justify-between">

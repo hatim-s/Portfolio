@@ -16,9 +16,19 @@ const Hero = () => {
         <div
           style={{ width: 435.16, height: 0, border: "4px #E45FFD solid" }}
         ></div>
-        <div className="text-2xl text-white">&lt;coder&gt;</div>
+        <div
+          className="text-2xl text-white sm:text-3xl xl:text-5xl tracking-wide xl:tracking-widest"
+          style={{ fontFamily: "Tabular, monospace" }}
+        >
+          &lt;coder&gt;
+        </div>
       </div>
-      <div className="text-xl text-white">Get to know more about me</div>
+      <div
+        className="text-xl text-white sm:text-2xl xl:text-3xl"
+        style={{ fontFamily: "Tabular, monospace" }}
+      >
+        Get to know more about me
+      </div>
     </div>
   );
 };
