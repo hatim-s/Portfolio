@@ -9,7 +9,15 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <>
-      <div style={{ background: "#10091D" }}>
+      <div
+        className="w-screen"
+        style={{
+          backgroundColor: "#10091D",
+          // opacity: "1",
+          // backgroundImage: "radial-gradient(#E45FFD 0.65px, #10091D 0.65px)",
+          // backgroundSize: "13px 13px",
+        }}
+      >
         <Header />
         <Hero />
         <About />

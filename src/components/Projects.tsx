@@ -2,11 +2,11 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="my-32 mx-40">
-      <h2 className="text-6xl inline text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
+    <div className="w-4/5 my-32 mx-auto">
+      <h2 className="text-4xl md:text-5xl lg:text-6xl inline text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
         Projects
       </h2>
-      <div className="pt-10">
+      <div className="pt-10 flex flex-col gap-10">
         <ProjectCard />
         <ProjectCard />
       </div>

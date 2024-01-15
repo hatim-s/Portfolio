@@ -1,13 +1,13 @@
 const ProjectCard = () => {
   return (
     <div
-      className="flex m-10 py-10 px-8 border-b rounded-2xl"
+      className="proj-card flex-1 flex flex-col sm:flex-row p-4 sm:p-10 border-b rounded-2xl border-fuchsia-200"
       style={{
         background:
           "linear-gradient(180deg, rgba(57, 41, 94, 0.30) 0%, rgba(36, 32, 45, 0.30) 100%)",
       }}
     >
-      <img className="pr-10" src="https://placehold.co/200" />
+      <img className="pb-10 sm:pb-0 sm:pr-10" src="https://placehold.co/200" />
       <div>
         <div className="flex justify-between">
           <h2
@@ -18,7 +18,7 @@ const ProjectCard = () => {
           >
             Company
           </h2>
-          <h2 className="text-5xl text-white">02</h2>
+          <h2 className="text-4xl text-white">02</h2>
         </div>
         <p
           className="pt-4"
