@@ -1,12 +1,8 @@
+import "./styles/ExperienceCard.css";
+
 const ExperienceCard = () => {
   return (
-    <div
-      className="exp-card flex-1 p-4 xl:p-10 flex flex-col lg:flex-row gap-4 xl:gap-10 rounded-2xl border-l border-t border-fuchsia-200"
-      style={{
-        background:
-          "linear-gradient(180deg, rgba(57, 41, 94, 0.30) 0%, rgba(36, 32, 45, 0.30) 100%)",
-      }}
-    >
+    <div className="experience-card flex-1 p-4 xl:p-10 flex flex-col lg:flex-row gap-4 xl:gap-10 rounded-2xl border-l border-t border-fuchsia-200">
       <img
         className="sm:pb-0 mx-auto max-w-24 xl:max-w-max"
         src="https://placehold.co/150"
@@ -21,7 +17,16 @@ const ExperienceCard = () => {
           >
             Company
           </h2>
-          <h2 className="text-4xl xl:text-6xl text-white">02</h2>
+          <h2
+            className="text-4xl xl:text-6xl text-transparent"
+            style={{
+              background:
+                "linear-gradient(180deg, rgba(124, 73, 252, 0.20) 0%, rgba(53, 30, 94, 0.00) 100%)",
+              backgroundClip: "text",
+            }}
+          >
+            02
+          </h2>
         </div>
         <p
           className="pt-4 xl:text-2xl"

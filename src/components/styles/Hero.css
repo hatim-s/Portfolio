@@ -1,0 +1,35 @@
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.moving-gradient {
+  background: rgb(228, 95, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 95, 253, 1) 00%,
+    rgba(84, 44, 249, 1) 50%,
+    rgba(228, 95, 253, 1) 100%
+  );
+  background-size: 200% 100%;
+  /* background-position: 100% 0%; */
+  color: transparent;
+  background-clip: text;
+  animation: gradientMove 2s linear infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
