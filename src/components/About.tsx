@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
+import aboutData from "../data/about";
 import "./styles/About.css";
 
 const About = () => {
@@ -17,19 +18,12 @@ const About = () => {
           color: "#F5C2FF",
         }}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident
-        explicabo alias, quidem eius cupiditate dolores et ratione assumenda ab
-        aperiam voluptatum, similique vel. Unde perferendis est temporibus, ut
-        sint non repellat earum ex ipsa, saepe optio aliquid, dolore praesentium
-        eum nobis repudiandae officia fuga magni. Est voluptate in doloribus quo
-        excepturi nulla, officia animi magnam iure blanditiis fuga magni illo
-        sunt esse, alias, assumenda placeat. Quasi nostrum ad, optio nihil qui
-        veritatis voluptate tenetur suscipit. Doloremque aperiam culpa enim,
-        eius cumque, accusantium praesentium, numquam laudantium a illo deserunt
-        neque. Qui et maiores minima provident quo accusantium nemo quasi quas?
+        {aboutData.content}
       </p>
       <div className="about-btn sm:w-1/2 flex col-span-1 justify-evenly">
-        <button
+        <a
+          href={aboutData.links.linkedin}
+          target="_blank"
           className="linkedin-btn text-4xl xl:text-5xl p-2 xl:p-4 text-white rounded-lg xl:rounded-2xl border-l border-t border-fuchsia-200"
           // style={{
           //   background:
@@ -37,8 +31,10 @@ const About = () => {
           // }}
         >
           <FaLinkedin />
-        </button>
-        <button
+        </a>
+        <a
+          href={aboutData.links.github}
+          target="_blank"
           className="github-btn text-4xl xl:text-5xl p-2 xl:p-4 text-white rounded-lg xl:rounded-2xl border-l border-t border-fuchsia-200"
           // style={{
           //   background:
@@ -46,8 +42,10 @@ const About = () => {
           // }}
         >
           <FaGithub />
-        </button>
-        <button
+        </a>
+        <a
+          href={aboutData.links.leetcode}
+          target="_blank"
           className="leetcode-btn text-4xl xl:text-5xl p-2 xl:p-4 text-white rounded-lg xl:rounded-2xl border-l border-t border-fuchsia-200"
           // style={{
           //   background:
@@ -55,7 +53,7 @@ const About = () => {
           // }}
         >
           <SiLeetcode />
-        </button>
+        </a>
       </div>
     </div>
   );

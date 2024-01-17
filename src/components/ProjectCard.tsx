@@ -1,9 +1,25 @@
 import "./styles/ProjectCard.css";
 
-const ProjectCard = () => {
+interface Props {
+  index: string;
+  name: string;
+  description: string;
+  image?: string;
+  repository: string;
+  website?: string;
+}
+
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  image,
+  repository,
+  website,
+}: Props) => {
   return (
     <div
-      className="project-card min-w-1/3 relative flex-1 flex flex-wrap flex-col p-4 sm:p-10 border-b rounded-2xl border-fuchsia-200"
+      className="project-card relative flex flex-wrap flex-col p-4 sm:p-10 border-b rounded-2xl border-fuchsia-200 items-top"
       // style={{
       //   background:
       //     "linear-gradient(180deg, rgba(57, 41, 94, 0.30) 0%, rgba(36, 32, 45, 0.30) 100%)",
@@ -13,8 +29,11 @@ const ProjectCard = () => {
       // }}
     >
       <img
-        className="py-4 px-auto flex-1 justify-center"
-        src="https://placehold.co/200"
+        className={`py-4 px-auto flex-1 flex-grow-0 justify-center aspect-square object-scale-down rounded-lg md:rounded-xl xl:rounded-2xl`}
+        src={image}
+        style={{
+          borderRadius: "10px",
+        }}
       />
       <div>
         <div className="flex justify-between flex-wrap">
@@ -24,7 +43,7 @@ const ProjectCard = () => {
               color: "#E45FFD",
             }}
           >
-            Company
+            {name}
           </h2>
           <h2
             className="text-6xl text-transparent absolute top-4 right-4"
@@ -34,7 +53,7 @@ const ProjectCard = () => {
               backgroundClip: "text",
             }}
           >
-            02
+            {index}
           </h2>
         </div>
         <p
@@ -43,17 +62,19 @@ const ProjectCard = () => {
             color: "#F5C2FF",
           }}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi,
-          quo qui assumenda consequuntur debitis adipisci at reiciendis mollitia
-          repudiandae voluptatem saepe aut est enim sunt voluptate possimus
+          {description}
         </p>
-        <div className="flex gap-4 sm:gap-8 pt-4">
-          <button className="py-2 px-4 rounded-md">
+        <div className={`flex flex-wrap gap-2 sm:gap-4 lg:gap-8 pt-4`}>
+          <a
+            href={website}
+            target="_blank"
+            className={`py-2 px-4 rounded-md ${!website && "hidden"}`}
+          >
             <h3 className="text-md sm:text-xl">Website</h3>
-          </button>
-          <button className="p-2 rounded-md">
+          </a>
+          <a href={repository} target="_blank" className="p-2 rounded-md">
             <h3 className="text-md sm:text-xl">Repository</h3>
-          </button>
+          </a>
         </div>
       </div>
     </div>

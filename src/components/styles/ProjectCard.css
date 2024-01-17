@@ -14,7 +14,7 @@
   transform: translateY(-30px);
 }
 
-.project-card button {
+.project-card a {
   background: linear-gradient(
     90deg,
     rgba(228, 95, 253, 1) 0%,
@@ -24,7 +24,7 @@
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.project-card button:hover {
+.project-card a:hover {
   box-shadow: 0 0 40px rgba(245, 194, 255, 0.3),
     0 0 10px rgba(245, 194, 255, 0.3);
 }

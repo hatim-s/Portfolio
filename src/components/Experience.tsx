@@ -1,5 +1,9 @@
 import ExperienceCard from "./ExperienceCard";
 
+import experienceData from "../data/experience";
+
+import salesforceLogo from "../assets/logos/salesforce-logo.png";
+
 const Experience = () => {
   return (
     <div id="experience-section" className="w-4/5 my-32 mx-auto">
@@ -7,7 +11,15 @@ const Experience = () => {
         Experiences
       </h2>
       <div className="flex flex-col gap-10 xl:gap-24 pt-10">
-        <ExperienceCard />
+        {experienceData.map((exp) => (
+          <ExperienceCard
+            index={exp.index}
+            company={exp.company}
+            description={exp.description}
+            position={exp.position}
+            logo={salesforceLogo}
+          />
+        ))}
       </div>
     </div>
   );
