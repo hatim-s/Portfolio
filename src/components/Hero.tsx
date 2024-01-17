@@ -47,10 +47,10 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="text-xl text-white sm:text-2xl xl:text-3xl"
+        className="text-xl text-white sm:text-2xl xl:text-2xl"
         style={{ fontFamily: "Tabular, monospace" }}
       >
-        Get to know more about me...
+        Impressed? ✨ Reach out to me here: 📩 hatimcodes@gmail.com
       </div>
     </div>
   );

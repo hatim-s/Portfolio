@@ -8,11 +8,11 @@ const Footer = () => {
       }}
     >
       <h3 className="flex-grow-0 text-md lg:text-xl text-white inline mx-auto">
-        Contact :&nbsp;&nbsp;&nbsp;hatimcodes@gmail.com
+        📩 Contact :&nbsp;&nbsp;&nbsp;hatimcodes@gmail.com
       </h3>
 
       <h3 className="flex-grow-0 text-md lg:text-xl text-white inline mx-auto">
-        Made with ❤️ and React
+        Made with ❤️ and React, TS and Tailwind
       </h3>
     </div>
   );
