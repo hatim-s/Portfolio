@@ -4,7 +4,10 @@ const Hero = () => {
   return (
     <div
       id="hero-section"
-      className="items-center mt-48 mb-96 mx-12 md:mx-28 lg:mx-32 xl:mx-40"
+      className="items-center mt-48 mb-96 mx-12 md:mx-28 lg:mx-32 xl:ml-52 xl:mr-28"
+      style={{
+        zIndex: "10",
+      }}
     >
       <h1 className="text-white text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
         i write code to

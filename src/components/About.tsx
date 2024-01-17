@@ -28,7 +28,7 @@ const About = () => {
         eius cumque, accusantium praesentium, numquam laudantium a illo deserunt
         neque. Qui et maiores minima provident quo accusantium nemo quasi quas?
       </p>
-      <div className="about-btn lg:w-1/2 flex col-span-1 justify-evenly">
+      <div className="about-btn sm:w-1/2 flex col-span-1 justify-evenly">
         <button
           className="linkedin-btn text-4xl xl:text-5xl p-2 xl:p-4 text-white rounded-lg xl:rounded-2xl border-l border-t border-fuchsia-200"
           // style={{

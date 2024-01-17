@@ -138,6 +138,8 @@ body {
 
 body {
   cursor: default;
+  background-color: #10091d;
+  overflow-x: hidden;
 }
 
 button {
