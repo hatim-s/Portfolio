@@ -1,10 +1,11 @@
 import "./styles/Hero.css";
+import resume from "../assets/docs/Resume_Hatim Shakir.pdf";
 
 const Hero = () => {
   return (
     <div
       id="hero-section"
-      className="items-center mt-48 mb-96 mx-12 md:mx-28 lg:mx-32 xl:ml-52 xl:mr-28"
+      className="items-center mt-24 sm:mt-40 xl:mt-44 mb-96 mx-12 md:mx-28 lg:mx-32 xl:ml-52 xl:mr-28"
       style={{
         zIndex: "10",
       }}
@@ -47,11 +48,27 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="text-xl text-white sm:text-2xl xl:text-2xl"
+        className="text-xl text-white sm:text-2xl xl:text-2xl mb-6"
         style={{ fontFamily: "Tabular, monospace" }}
       >
-        Impressed? ✨ Reach out to me here: 📩 hatimcodes@gmail.com
+        Think I'm a great fit for you? ✨ Reach out to me here: 📩
+        hatimcodes@gmail.com
       </div>
+      <a
+        href={resume}
+        target="_blank"
+        className="resume-btn text-xl xl:text-3xl px-4 xl:px-6 py-2 xl:py-3 text-white font-bold rounded-lg xl:rounded-2xl border-l border-t border-fuchsia-200"
+      >
+        <div
+          className="inline-block"
+          style={{
+            fontFamily: "ClashDisplay-Medium",
+            letterSpacing: "2px",
+          }}
+        >
+          Résumé
+        </div>
+      </a>
     </div>
   );
 };

@@ -35,3 +35,19 @@
     width: 0;
   }
 }
+
+.resume-btn {
+  background: linear-gradient(
+    180deg,
+    rgba(57, 41, 94, 0.3) 0%,
+    rgba(36, 32, 45, 0.3) 100%
+  );
+}
+
+.resume-btn:hover {
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  background: white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  color: rgba(36, 32, 45, 0.9);
+}

@@ -10,7 +10,7 @@ const Header = () => {
       }}
     >
       <div className="col-1 align-center justify-center flex">
-        <h2 className="logo text-fuchsia-400 text-3xl xl:text-4xl tracking-wide text-center self-center xl:text-left xl:pl-20 text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
+        <h2 className="logo text-fuchsia-400 text-3xl xl:text-5xl tracking-wide text-center self-center xl:text-center text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
           hatimcodes/
         </h2>
       </div>
