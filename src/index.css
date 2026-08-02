@@ -8,27 +8,27 @@
 
 :root {
   font-family: "Clash Display", sans-serif;
-  color: #eeeada;
-  background: #061129;
+  color: #171411;
+  background: #f1e5c8;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --ink: #061129;
-  --ink-2: #020814;
-  --blue: #173fd1;
-  --blue-electric: #214bd8;
-  --orange: #ff5600;
-  --bone: #eeeada;
-  --acid: #d7ff1f;
-  --muted: #aeb9d8;
+  --paper: #f1e5c8;
+  --paper-light: #fff7df;
+  --carbon: #171411;
+  --vermilion: #ed3c1f;
+  --cobalt: #1748c8;
+  --yellow: #e8ff25;
+  --font-display: "Clash Display", sans-serif;
+  --font-condensed: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 html {
-  background: var(--ink);
-  scrollbar-color: var(--orange) var(--ink-2);
+  background: var(--paper);
+  scroll-behavior: smooth;
+  scrollbar-color: var(--vermilion) var(--carbon);
 }
 
 body {
@@ -36,19 +36,15 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
-  background: var(--ink);
+  background: var(--paper);
 }
 
 body,
 button,
-a {
-  cursor: default;
-}
+a { cursor: default; }
 
 a,
-button {
-  font: inherit;
-}
+button { font: inherit; }
 
 a {
   color: inherit;
@@ -56,30 +52,27 @@ a {
   cursor: pointer;
 }
 
-button {
-  cursor: pointer;
-}
+button { cursor: pointer; }
 
 ::selection {
-  color: var(--ink);
-  background: var(--acid);
+  color: var(--carbon);
+  background: var(--yellow);
 }
 
 :focus-visible {
-  outline: 3px solid var(--acid);
+  outline: 3px solid var(--yellow);
   outline-offset: 4px;
+  box-shadow: 0 0 0 6px var(--carbon);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
+  html { scroll-behavior: auto; }
   *,
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

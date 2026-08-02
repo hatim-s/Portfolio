@@ -36,6 +36,7 @@ The portfolio is evaluated quickly on desktop and mobile, often from a shared li
 - Name: Hatim Shakir.
 - Voice: technically precise, direct, curious, ambitious, and human; never resume boilerplate.
 - Binding visual brief: cinematic, immersive, modern, maximal rather than minimalist, and delightful to explore.
+- Variant boundary: Signal Press presents the same verified portfolio as a kinetic independent engineering magazine; it must preserve every fact and link while replacing scientific-detector imagery and dashboard composition with editorial print material.
 - Keep the existing GitHub, LinkedIn, LeetCode, email, and resume access.
 
 ## Evidence on Hand

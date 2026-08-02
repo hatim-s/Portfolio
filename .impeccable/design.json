@@ -1,156 +1,134 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-02T04:09:16Z",
-  "title": "Design System: Hatim Shakir Portfolio",
+  "generatedAt": "2026-08-02T04:42:30Z",
+  "title": "Design System: Hatim Shakir Portfolio — Signal Press",
   "extensions": {
     "colorMeta": {
-      "ink": {
+      "paper": {
         "role": "neutral",
-        "displayName": "Deep Instrument Ink",
-        "tonalRamp": ["oklch(15% 0.052 262.9)", "oklch(26% 0.052 262.9)", "oklch(37% 0.052 262.9)", "oklch(48% 0.052 262.9)", "oklch(59% 0.052 262.9)", "oklch(70% 0.052 262.9)", "oklch(82% 0.052 262.9)", "oklch(94% 0.052 262.9)"]
+        "displayName": "Warm Newsprint",
+        "canonical": "#f1e5c8",
+        "tonalRamp": ["oklch(18% 0.025 85)", "oklch(28% 0.03 85)", "oklch(40% 0.035 85)", "oklch(52% 0.04 85)", "oklch(65% 0.045 85)", "oklch(76% 0.05 85)", "oklch(86% 0.055 85)", "oklch(94% 0.05 85)"]
       },
-      "ink-2": {
+      "paper-light": {
         "role": "neutral",
-        "displayName": "Void Ink",
-        "tonalRamp": ["oklch(15% 0.031 255.4)", "oklch(26% 0.031 255.4)", "oklch(37% 0.031 255.4)", "oklch(48% 0.031 255.4)", "oklch(59% 0.031 255.4)", "oklch(70% 0.031 255.4)", "oklch(82% 0.031 255.4)", "oklch(94% 0.031 255.4)"]
+        "displayName": "Fresh Sheet",
+        "canonical": "#fff7df",
+        "tonalRamp": ["oklch(18% 0.02 85)", "oklch(30% 0.025 85)", "oklch(43% 0.03 85)", "oklch(56% 0.035 85)", "oklch(69% 0.04 85)", "oklch(80% 0.045 85)", "oklch(90% 0.04 85)", "oklch(97% 0.035 85)"]
       },
-      "blue": {
-        "role": "secondary",
-        "displayName": "Ultramarine Structure",
-        "tonalRamp": ["oklch(15% 0.226 265.2)", "oklch(26% 0.226 265.2)", "oklch(37% 0.226 265.2)", "oklch(48% 0.226 265.2)", "oklch(59% 0.226 265.2)", "oklch(70% 0.226 265.2)", "oklch(82% 0.226 265.2)", "oklch(94% 0.226 265.2)"]
+      "carbon": {
+        "role": "neutral",
+        "displayName": "Press Carbon",
+        "canonical": "#171411",
+        "tonalRamp": ["oklch(13% 0.01 65)", "oklch(23% 0.012 65)", "oklch(35% 0.012 65)", "oklch(47% 0.012 65)", "oklch(59% 0.01 65)", "oklch(71% 0.009 65)", "oklch(83% 0.007 65)", "oklch(94% 0.004 65)"]
       },
-      "blue-electric": {
-        "role": "secondary",
-        "displayName": "Electric Ultramarine",
-        "tonalRamp": ["oklch(15% 0.220 265.4)", "oklch(26% 0.220 265.4)", "oklch(37% 0.220 265.4)", "oklch(48% 0.220 265.4)", "oklch(59% 0.220 265.4)", "oklch(70% 0.220 265.4)", "oklch(82% 0.220 265.4)", "oklch(94% 0.220 265.4)"]
-      },
-      "orange": {
+      "signal-vermilion": {
         "role": "primary",
-        "displayName": "Hot Control Orange",
-        "tonalRamp": ["oklch(15% 0.217 39)", "oklch(26% 0.217 39)", "oklch(37% 0.217 39)", "oklch(48% 0.217 39)", "oklch(59% 0.217 39)", "oklch(70% 0.217 39)", "oklch(82% 0.217 39)", "oklch(94% 0.217 39)"]
+        "displayName": "Signal Vermilion",
+        "canonical": "#ed3c1f",
+        "tonalRamp": ["oklch(18% 0.10 32)", "oklch(28% 0.14 32)", "oklch(39% 0.18 32)", "oklch(51% 0.21 32)", "oklch(62% 0.22 32)", "oklch(73% 0.18 32)", "oklch(84% 0.11 32)", "oklch(94% 0.045 32)"]
       },
-      "bone": {
-        "role": "neutral",
-        "displayName": "Warm Detector Bone",
-        "tonalRamp": ["oklch(15% 0.022 95.3)", "oklch(26% 0.022 95.3)", "oklch(37% 0.022 95.3)", "oklch(48% 0.022 95.3)", "oklch(59% 0.022 95.3)", "oklch(70% 0.022 95.3)", "oklch(82% 0.022 95.3)", "oklch(94% 0.022 95.3)"]
+      "electric-cobalt": {
+        "role": "secondary",
+        "displayName": "Electric Cobalt",
+        "canonical": "#1748c8",
+        "tonalRamp": ["oklch(18% 0.11 263)", "oklch(28% 0.16 263)", "oklch(39% 0.20 263)", "oklch(50% 0.22 263)", "oklch(61% 0.20 263)", "oklch(72% 0.15 263)", "oklch(84% 0.09 263)", "oklch(94% 0.035 263)"]
       },
-      "acid": {
+      "proof-yellow": {
         "role": "tertiary",
-        "displayName": "Calibration Acid",
-        "tonalRamp": ["oklch(15% 0.219 120.7)", "oklch(26% 0.219 120.7)", "oklch(37% 0.219 120.7)", "oklch(48% 0.219 120.7)", "oklch(59% 0.219 120.7)", "oklch(70% 0.219 120.7)", "oklch(82% 0.219 120.7)", "oklch(94% 0.219 120.7)"]
-      },
-      "muted": {
-        "role": "neutral",
-        "displayName": "Cool Readout Muted",
-        "tonalRamp": ["oklch(15% 0.046 269.9)", "oklch(26% 0.046 269.9)", "oklch(37% 0.046 269.9)", "oklch(48% 0.046 269.9)", "oklch(59% 0.046 269.9)", "oklch(70% 0.046 269.9)", "oklch(82% 0.046 269.9)", "oklch(94% 0.046 269.9)"]
+        "displayName": "Proof Yellow",
+        "canonical": "#e8ff25",
+        "tonalRamp": ["oklch(18% 0.07 110)", "oklch(29% 0.10 110)", "oklch(41% 0.13 110)", "oklch(54% 0.16 110)", "oklch(67% 0.18 110)", "oklch(78% 0.17 110)", "oklch(89% 0.13 110)", "oklch(96% 0.07 110)"]
       }
     },
     "typographyMeta": {
-      "display": { "displayName": "Monumental Name", "purpose": "First-viewport identity overlapping the detector field." },
-      "headline": { "displayName": "Section Signal", "purpose": "Short chapter statements with compressed line height." },
-      "title": { "displayName": "Ledger Title", "purpose": "Project and experience record names." },
-      "body": { "displayName": "Technical Narrative", "purpose": "Readable explanations and project descriptions." },
-      "label": { "displayName": "Recorded Metadata", "purpose": "Dates, indices, evidence, telemetry, and chart labels." }
+      "display": { "displayName": "Monumental Sorts", "purpose": "Cover name and authenticated total." },
+      "headline": { "displayName": "Editorial Headline", "purpose": "Chapter and centerfold statements." },
+      "title": { "displayName": "Feature Title", "purpose": "Project names at spread scale." },
+      "body": { "displayName": "Story Copy", "purpose": "Narrative and evidence descriptions." },
+      "label": { "displayName": "Proof Label", "purpose": "Dates, access, folios, stack, and methodology." }
     },
     "shadows": [],
     "motion": [
-      { "name": "state-fast", "value": "150ms ease-out", "purpose": "Link color and padding feedback." },
-      { "name": "control-fast", "value": "160ms ease-out", "purpose": "Primary action and header state changes." },
-      { "name": "ledger-field", "value": "180ms ease-out", "purpose": "Project-row color and field transitions." },
-      { "name": "signal-rise", "value": "900ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Contribution bars reveal upward from the baseline." },
-      { "name": "chamber-scroll-coupling", "value": "linear, scale(1) rotate(0deg) to scale(1.08) rotate(1.2deg)", "purpose": "Detector plate couples gently to the first 90vh of root scroll when scroll timelines are supported." },
-      { "name": "reduced-motion", "value": "0.01ms; deterministic canvas frame at time 0", "purpose": "Collapses CSS motion and replaces detector animation with one static frame." }
+      { "name": "type-lock", "value": "900ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Reveals the cover name as two metal sorts locking into register." },
+      { "name": "ink-rise", "value": "850ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Raises contribution bars from the baseline with a bounded stagger." },
+      { "name": "state-fast", "value": "150ms ease-out", "purpose": "Color and underline changes on links and actions." }
     ],
     "breakpoints": [
-      { "name": "compact-desktop", "value": "1100px" },
-      { "name": "mobile", "value": "760px" }
+      { "name": "compact-desktop", "value": "1120px" },
+      { "name": "stacked", "value": "820px" },
+      { "name": "handheld", "value": "560px" }
     ]
   },
   "components": [
     {
-      "name": "Primary Work Action",
+      "name": "Ink Action",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The embedded hot-orange action that opens the project ledger.",
-      "html": "<a class=\"ds-primary-action\" href=\"#projects\"><span>ENTER THE WORK</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 7h10v10M7 17 17 7\"/></svg></a>",
-      "css": ".ds-primary-action { display:inline-flex; align-items:center; justify-content:space-between; gap:2.5rem; min-width:min(100%,19.5rem); min-height:4rem; padding:.95rem 1.05rem .95rem 1.35rem; border:0; border-radius:0; color:var(--ink-2,#020814); background:var(--orange,#ff5600); font-family:\"Clash Display\",sans-serif; font-size:1rem; font-weight:650; letter-spacing:.01em; text-decoration:none; transition:background-color 160ms ease-out,color 160ms ease-out; } .ds-primary-action svg { width:1.5rem; height:1.5rem; fill:none; stroke:currentColor; stroke-width:2; } .ds-primary-action:hover { color:var(--ink,#061129); background:var(--acid,#d7ff1f); } .ds-primary-action:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:4px; } .ds-primary-action:active { background:var(--bone,#eeeada); }"
+      "description": "The direct primary route into a dossier section.",
+      "html": "<a class=\"ds-ink-action\" href=\"#\">READ THE WORK <span aria-hidden=\"true\">↓</span></a>",
+      "css": ".ds-ink-action{display:inline-flex;align-items:center;justify-content:space-between;min-width:12.5rem;min-height:4rem;padding:.85rem 1rem;color:#f1e5c8;background:#ed3c1f;border:2px solid #171411;border-radius:0;font-family:Arial,sans-serif;font-weight:700;text-decoration:none;transform:rotate(-1.2deg);transition:color 150ms ease-out,background-color 150ms ease-out}.ds-ink-action:hover{color:#171411;background:#e8ff25}.ds-ink-action:focus-visible{outline:3px solid #e8ff25;outline-offset:4px;box-shadow:0 0 0 6px #171411}"
     },
     {
-      "name": "Recorder Navigation Link",
+      "name": "Press Navigation",
       "kind": "nav",
-      "description": "A numbered header destination that reads like an instrument index.",
-      "html": "<nav class=\"ds-recorder-nav\" aria-label=\"Example navigation\"><a href=\"#projects\"><span>03</span> Projects</a></nav>",
-      "css": ".ds-recorder-nav { display:flex; align-items:center; padding:0 1rem; min-height:4.75rem; border-bottom:1px solid rgba(238,234,218,.28); color:var(--bone,#eeeada); background:var(--ink,#061129); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; } .ds-recorder-nav a { display:inline-flex; gap:.4rem; align-items:center; min-height:2.75rem; color:inherit; text-decoration:none; transition:color 160ms ease-out; } .ds-recorder-nav span { color:var(--orange,#ff5600); font-size:.56rem; } .ds-recorder-nav a:hover { color:var(--acid,#d7ff1f); } .ds-recorder-nav a:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:4px; } .ds-recorder-nav a:active { color:var(--orange,#ff5600); }"
+      "description": "Carbon masthead navigation with proof-yellow state feedback.",
+      "html": "<nav class=\"ds-press-nav\"><a href=\"#\">EXPERIENCE</a><a href=\"#\">PROJECTS</a><a href=\"#\">CONTACT</a></nav>",
+      "css": ".ds-press-nav{display:flex;gap:1.5rem;padding:.75rem 1rem;color:#f1e5c8;background:#171411;font:700 .66rem/1.2 ui-monospace,monospace;letter-spacing:.08em}.ds-press-nav a{display:inline-flex;align-items:center;min-height:2.75rem;color:inherit;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:.35rem}.ds-press-nav a:hover{color:#e8ff25;text-decoration-color:currentColor}.ds-press-nav a:focus-visible{outline:3px solid #e8ff25;outline-offset:4px}"
     },
     {
-      "name": "Calibration Tag",
+      "name": "Access Stamp",
       "kind": "chip",
-      "refersTo": "calibration-tag",
-      "description": "A square readout tag for access state or detector calibration.",
-      "html": "<span class=\"ds-calibration-tag\">PRIVATE SIGNAL / 3954</span>",
-      "css": ".ds-calibration-tag { display:inline-block; padding:.35rem .5rem; border:1px solid var(--acid,#d7ff1f); border-radius:0; color:var(--acid,#d7ff1f); background:rgba(6,17,41,.88); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.58rem; line-height:1.5; letter-spacing:.06em; text-transform:uppercase; }"
+      "description": "Square factual state for public and private work.",
+      "html": "<span class=\"ds-access-stamp\">PRIVATE BUILD</span>",
+      "css": ".ds-access-stamp{display:inline-flex;align-items:center;min-height:1.75rem;padding:.35rem .5rem;color:#171411;background:#ed3c1f;border:1px solid #171411;border-radius:0;font:700 .62rem/1.2 ui-monospace,monospace;letter-spacing:.07em;text-transform:uppercase}"
     },
     {
-      "name": "Project Ledger Row",
-      "kind": "card",
-      "refersTo": "project-ledger-row",
-      "description": "A ruled newest-first work record with access state, evidence, stack, and source action.",
-      "html": "<article class=\"ds-project-row\"><div class=\"ds-project-number\">01</div><div class=\"ds-project-date\"><time datetime=\"2026-07\">2026-07</time><span>PUBLIC</span></div><div class=\"ds-project-main\"><h3>Workflow Planner</h3><p>Deterministic evaluation around agent-planned workflow execution.</p><ul><li>TypeScript</li><li>Agents</li></ul></div><a class=\"ds-project-link\" href=\"#source\">SOURCE <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></article>",
-      "css": ".ds-project-row { display:grid; grid-template-columns:5rem 9rem minmax(18rem,1fr) 8rem; min-height:18rem; border-top:1px solid rgba(238,234,218,.45); border-bottom:1px solid rgba(238,234,218,.34); border-radius:0; color:var(--bone,#eeeada); background:var(--ink-2,#020814); font-family:\"Clash Display\",sans-serif; transition:color 180ms ease-out,background-color 180ms ease-out; } .ds-project-row:hover { color:var(--ink-2,#020814); background:var(--blue-electric,#214bd8); } .ds-project-number,.ds-project-date,.ds-project-main,.ds-project-link { padding:clamp(1.4rem,3vw,3rem); border-right:1px solid rgba(238,234,218,.25); } .ds-project-number { display:grid; place-items:center; color:var(--orange,#ff5600); font-size:4rem; font-weight:630; } .ds-project-date { display:flex; flex-direction:column; gap:.8rem; justify-content:center; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.68rem; letter-spacing:.05em; text-transform:uppercase; } .ds-project-date span { width:max-content; padding:.32rem .5rem; border:1px solid var(--acid,#d7ff1f); color:var(--acid,#d7ff1f); } .ds-project-main { display:flex; flex-direction:column; justify-content:center; } .ds-project-main h3 { margin:0 0 1rem; font-size:clamp(2.4rem,5vw,5.7rem); line-height:.9; letter-spacing:-.04em; } .ds-project-main p { max-width:65ch; margin:0; color:#b8c4e5; line-height:1.55; } .ds-project-main ul { display:flex; gap:.45rem; margin:1.35rem 0 0; padding:0; list-style:none; } .ds-project-main li { padding:.3rem .48rem; border:1px solid rgba(238,234,218,.38); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.6rem; } .ds-project-link { display:flex; align-items:center; justify-content:space-between; border-right:0; color:inherit; font-size:.78rem; text-decoration:none; } .ds-project-link svg { width:1rem; fill:none; stroke:currentColor; stroke-width:2; } .ds-project-row:hover .ds-project-main p,.ds-project-row:hover .ds-project-number,.ds-project-row:hover .ds-project-date span { color:currentColor; } .ds-project-link:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:-6px; } .ds-project-link:active { color:var(--acid,#d7ff1f); } @media(max-width:760px){.ds-project-row{grid-template-columns:4rem 1fr}.ds-project-number{grid-row:1/4;padding:1.1rem .5rem;writing-mode:vertical-rl}.ds-project-date,.ds-project-main,.ds-project-link{grid-column:2;border-right:0}.ds-project-main h3{font-size:clamp(2.5rem,14vw,4.5rem)}}"
-    },
-    {
-      "name": "Chamber Telemetry",
+      "name": "Project Feature",
       "kind": "custom",
-      "description": "A square edge readout showing subsystem health over the detector field.",
-      "html": "<div class=\"ds-telemetry\"><strong>SUBSYSTEMS</strong><span>TRK&nbsp;&nbsp;OK</span><span>CAL&nbsp;&nbsp;OK</span><span>FLOW&nbsp;OK</span><span>REL&nbsp;&nbsp;OK</span></div>",
-      "css": ".ds-telemetry { display:grid; gap:.28rem; min-width:6.5rem; padding:.75rem; border-left:1px solid var(--acid,#d7ff1f); border-radius:0; color:var(--bone,#eeeada); background:rgba(2,8,20,.72); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.56rem; letter-spacing:.06em; text-transform:uppercase; } .ds-telemetry strong,.ds-telemetry span:last-child { color:var(--acid,#d7ff1f); }"
+      "refersTo": "project-feature",
+      "description": "A ruled editorial spread for one chronological project.",
+      "html": "<article class=\"ds-feature\"><span class=\"ds-feature-folio\">01</span><div><small>2026-07-17 · PRIVATE BUILD</small><h3>RULEBOOK</h3></div><p>A version-controlled source of truth for agent instructions.</p></article>",
+      "css": ".ds-feature{display:grid;grid-template-columns:5rem 1fr 1fr;min-height:18rem;color:#f1e5c8;background:#171411;border-block:1px solid #f1e5c8;border-radius:0}.ds-feature>*{padding:1.5rem;border-inline-end:1px solid currentColor}.ds-feature-folio{color:#ed3c1f;font:700 4.5rem/.7 'Arial Narrow',sans-serif}.ds-feature small{font:700 .62rem/1.4 ui-monospace,monospace;letter-spacing:.07em}.ds-feature h3{margin:1rem 0 0;font:700 5rem/.68 'Arial Narrow',sans-serif;letter-spacing:-.04em}.ds-feature p{align-self:center;max-width:40ch;font:400 1rem/1.55 Arial,sans-serif}"
     },
     {
-      "name": "Contact Action",
+      "name": "Contact Plate",
       "kind": "button",
-      "description": "A full-width ruled action used in the final contact instrument.",
-      "html": "<a class=\"ds-contact-action\" href=\"mailto:hatimcodes@gmail.com\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 5h18v14H3zM3 6l9 7 9-7\"/></svg><span>Email Hatim</span></a>",
-      "css": ".ds-contact-action { display:grid; grid-template-columns:1.5rem 1fr; gap:1rem; align-items:center; min-height:4.4rem; border-top:1px solid var(--bone,#eeeada); border-bottom:1px solid rgba(238,234,218,.58); border-radius:0; color:var(--bone,#eeeada); background:var(--blue-electric,#214bd8); font-family:\"Clash Display\",sans-serif; font-size:1.05rem; text-decoration:none; transition:color 150ms ease-out,padding 150ms ease-out; } .ds-contact-action svg { width:1.25rem; fill:none; stroke:currentColor; stroke-width:1.8; } .ds-contact-action:hover { padding-left:.75rem; color:var(--acid,#d7ff1f); } .ds-contact-action:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:4px; } .ds-contact-action:active { color:var(--orange,#ff5600); }"
-    },
-    {
-      "name": "Signal Bar",
-      "kind": "custom",
-      "description": "One ruled monthly contribution column from the dense signal chart.",
-      "html": "<div class=\"ds-signal-month\"><span class=\"ds-signal-value\">417</span><div class=\"ds-signal-track\"><span style=\"height:78%\"></span></div><span class=\"ds-signal-name\">JUL</span></div>",
-      "css": ".ds-signal-month { display:grid; grid-template-rows:auto 1fr auto; gap:.55rem; width:3rem; min-height:18rem; padding:.5rem; color:var(--ink-2,#020814); background:var(--orange,#ff5600); } .ds-signal-value,.ds-signal-name { overflow:hidden; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.56rem; white-space:nowrap; } .ds-signal-track { display:flex; align-items:flex-end; min-height:14rem; border-bottom:1px solid var(--ink-2,#020814); background:rgba(6,17,41,.08); } .ds-signal-track span { display:block; width:100%; min-height:.4rem; background:var(--ink-2,#020814); transform-origin:bottom; animation:ds-signal-rise 900ms cubic-bezier(.16,1,.3,1) both; } @keyframes ds-signal-rise { from { clip-path:inset(100% 0 0); } to { clip-path:inset(0); } } @media(prefers-reduced-motion:reduce){.ds-signal-track span{animation-duration:.01ms;animation-iteration-count:1}}"
+      "description": "Full-width carbon contact route used in the closing press stack.",
+      "html": "<a class=\"ds-contact-plate\" href=\"#\">EMAIL HATIM</a>",
+      "css": ".ds-contact-plate{display:flex;align-items:center;min-height:4.5rem;padding:1rem 1.2rem;color:#f1e5c8;background:#171411;border:1px solid #f1e5c8;border-radius:0;font:700 .72rem/1.2 ui-monospace,monospace;letter-spacing:.07em;text-decoration:none;transition:color 150ms ease-out,background-color 150ms ease-out,padding-inline-start 150ms ease-out}.ds-contact-plate:hover{padding-inline-start:1.7rem;color:#171411;background:#e8ff25}.ds-contact-plate:focus-visible{outline:3px solid #e8ff25;outline-offset:4px}"
     }
   ],
   "narrative": {
-    "northStar": "The Recorded Event Chamber",
-    "overview": "This system treats engineering as a recorded event: decisions leave trajectories from state and schema through interface and release. It is cinematic, technical, and densely instrumented, using a particle-detector image, a live canvas trace field, measured labels, and verified activity readouts as the visual proof layer.\n\nThe world is maximal without becoming ornamental. Monumental condensed type collides with narrow rails and plotted signal; hot-orange control planes cut through ultramarine and near-black fields; bone reading surfaces interrupt the dark run. It explicitly refuses the generic developer hero and repeated floating-card grid.",
+    "northStar": "The Live Engineering Press",
+    "overview": "Signal Press treats the portfolio as a radical independent magazine being pulled from a printing press in real time. Engineering evidence is editorial material: authenticated contribution metrics become proof copy, ownership paths become an investigative centerfold, and chronological projects become collectible feature spreads. The system is maximal, physical, and direct.",
     "keyCharacteristics": [
-      "Monumental condensed naming overlaps the detector field.",
-      "Dense rails, ticks, rules, telemetry, and plotted data make evidence visible.",
-      "Hot orange drives actions and major signal; chartreuse marks calibration and focus.",
-      "Square instrument controls and hard section boundaries preserve mechanical precision.",
-      "Public and private work share one newest-first ledger without misrepresenting access."
+      "Monumental condensed display type carries names, numbers, and project titles.",
+      "Carbon, vermilion, cobalt, and proof yellow behave as separate ink plates on warm stock.",
+      "Rules, folios, dates, access states, registration targets, and side captions make evidence structural.",
+      "Motion appears once as type locking into register and once as chart ink rising; it never gates content.",
+      "Every public, private, and live state remains explicit."
     ],
     "rules": [
-      { "name": "The Split-Signal Rule", "body": "Orange means action or primary recorded energy; acid means calibration, focus, or confirmation. Do not use them interchangeably.", "section": "colors" },
-      { "name": "The Bone Interruption Rule", "body": "Light surfaces are deliberate chapter changes, not a default card color.", "section": "colors" },
-      { "name": "The Three-Instrument Rule", "body": "Use condensed display for identity, Clash for narrative and titles, and monospace only for recorded metadata.", "section": "typography" },
-      { "name": "The Ledger-Not-Grid Rule", "body": "Repeated work belongs in ruled rows with dates, access, evidence, and actions aligned to a shared axis; do not convert it into a generic card grid.", "section": "layout" },
-      { "name": "The No-Lift Rule", "body": "Never add card shadows or hover elevation. Change color, rule position, or padding to show state.", "section": "elevation" },
-      { "name": "The Instrument-Corner Rule", "body": "Controls and containers stay square; circular forms must communicate measurement or detection.", "section": "shapes" }
+      { "name": "The Separate Plates Rule", "body": "Vermilion means action or primary editorial force; cobalt means verified depth and large chapter fields; yellow means proof, focus, or navigation. Do not scatter all three as interchangeable accents.", "section": "colors" },
+      { "name": "The Stock Is a Field Rule", "body": "Warm paper owns complete regions. It is never reduced to a small cream card floating on a neutral page.", "section": "colors" },
+      { "name": "The Sorts, Story, Proof Rule", "body": "Condensed type shouts the artifact, Clash tells the story, and mono certifies the evidence. Never swap their jobs for variety.", "section": "typography" },
+      { "name": "The Spread, Not Card Rule", "body": "Projects own the full width and share one ruled axis. Do not turn them into interchangeable rounded tiles.", "section": "layout" },
+      { "name": "The Flat Press Rule", "body": "Surfaces stay physically flat. If a region needs hierarchy, change the ink plate, rule weight, overlap, or density before considering shadow.", "section": "elevation" }
     ],
     "dos": [
-      "Do make evidence visible through numbers, dates, access states, plotted data, and technical readouts.",
-      "Do keep actions, tags, ledgers, and information surfaces square and shadowless.",
-      "Do use orange for primary energy and acid for calibration, focus, and confirmation.",
-      "Do preserve the complete static detector frame and near-instant state changes when reduced motion is requested.",
-      "Do keep public and private project states explicit and readable."
+      "Do use verified numbers, dates, paths, access states, and methodology as the visual material.",
+      "Do pace dense spreads with chapter fields and broad ink changes.",
+      "Do keep focus, reduced motion, 44px targets, and narrow-screen reading order intact.",
+      "Do reserve texture for paper, halftone, and overprint behavior native to the press world.",
+      "Do keep public and private work honest and visibly distinct."
     ],
     "donts": [
-      "Don't fall back to a centered developer hero followed by a generic card grid.",
-      "Don't add rounded pills, soft cards, glassmorphism, or ambient drop shadows.",
-      "Don't use the monospace face for narrative paragraphs or the condensed face for dense reading.",
-      "Don't animate the chamber for coarse pointers, offscreen visitors, or reduced-motion users.",
-      "Don't hide evidence behind purely decorative motion or inaccessible interactions."
+      "Don't reintroduce particle systems, detector imagery, dashboards, generic card grids, glass, or glossy material.",
+      "Don't replace the local display voices with a system font or a generic editorial serif.",
+      "Don't use gradient text, decorative blur, soft shadows, rounded pills, or floating surfaces.",
+      "Don't put mono on narrative copy or use tiny tracked labels as ornamental headings.",
+      "Don't animate every section; the type lock and chart rise are the complete motion vocabulary."
     ]
   }
 }
