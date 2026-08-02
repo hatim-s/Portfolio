@@ -1,0 +1,10 @@
+Use case: photorealistic-natural
+Asset type: reusable opaque website material texture, 3:2 landscape
+Primary request: a seamless-looking close architectural material plate of warm board-formed limestone concrete, intended to sit behind semantic website typography.
+Scene/backdrop: flat frontal surface only, no room, no floor, no architecture, no objects.
+Subject: pale warm limestone-concrete with fine natural aggregate, subtle mineral variation, sparse hairline formwork marks, and one very soft broad band of raking side light.
+Style/medium: high-resolution natural material photography, understated, tactile, realistic.
+Composition/framing: edge-to-edge flat material, uniform enough for text readability, no obvious focal object, no hard vignette.
+Lighting/mood: warm indirect daylight, low contrast; tactile but quiet.
+Color palette: limestone #d8cdbb, warm concrete #b2a28e, small charcoal pores; no saturated color.
+Constraints: no text, no symbols, no seams forming a grid, no wall corners, no perspective, no cast-object shadows, no gradients, no bevels, no glossy finish, no watermark.

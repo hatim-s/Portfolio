@@ -1,207 +1,220 @@
 ---
 name: Hatim Shakir Portfolio
-description: A particle-collider event recorder for engineering work, ownership, and signal.
+description: A tactile concrete observatory for engineering ownership, project evidence, and working rhythm.
 colors:
-  ink: "#061129"
-  ink-2: "#020814"
-  blue: "#173fd1"
-  blue-electric: "#214bd8"
-  orange: "#ff5600"
-  bone: "#eeeada"
-  acid: "#d7ff1f"
-  muted: "#aeb9d8"
+  void: "#181714"
+  shadow-concrete: "#24211c"
+  warm-concrete: "#b7a894"
+  limestone: "#e7dfcf"
+  oxidized-brass: "#9b7a43"
+  brass-light: "#d0ad68"
+  oxblood: "#6d1b26"
+  registration-cobalt: "#17498f"
 typography:
   display:
     fontFamily: '"Barlow Condensed", "Arial Narrow", sans-serif'
-    fontSize: "clamp(7rem, 12vw, 12rem)"
-    fontWeight: 600
-    lineHeight: 0.68
+    fontSize: "clamp(3.5rem, 7vw, 6rem)"
+    fontWeight: 700
+    lineHeight: 0.82
     letterSpacing: "-0.025em"
   headline:
-    fontFamily: '"Clash Display", sans-serif'
-    fontSize: "clamp(3rem, 6vw, 6rem)"
+    fontFamily: '"Clash Display", "Helvetica Neue", sans-serif'
+    fontSize: "clamp(3.3rem, 6vw, 6rem)"
     fontWeight: 650
-    lineHeight: 0.9
-    letterSpacing: "-0.04em"
+    lineHeight: 0.88
+    letterSpacing: "-0.03em"
   title:
-    fontFamily: '"Clash Display", sans-serif'
-    fontSize: "clamp(2.4rem, 5vw, 5.7rem)"
-    fontWeight: 650
+    fontFamily: '"Barlow Condensed", "Arial Narrow", sans-serif'
+    fontSize: "clamp(2.2rem, 4vw, 4rem)"
+    fontWeight: 700
     lineHeight: 0.9
-    letterSpacing: "-0.04em"
+    letterSpacing: "-0.025em"
   body:
-    fontFamily: '"Clash Display", sans-serif'
+    fontFamily: '"Clash Display", "Helvetica Neue", sans-serif'
     fontSize: "1rem"
     fontWeight: 400
     lineHeight: 1.55
   label:
-    fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    fontSize: "0.68rem"
-    fontWeight: 500
-    lineHeight: 1.5
-    letterSpacing: "0.06em"
+    fontFamily: '"Barlow Condensed", "Arial Narrow", sans-serif'
+    fontSize: "0.72rem"
+    fontWeight: 600
+    lineHeight: 1.3
+    letterSpacing: "0.1em"
 rounded:
-  square: "0"
+  structural: "0"
+spacing:
+  registration: "1rem"
+  room: "1.5rem"
+  chamber: "3rem"
+  atrium: "5rem"
 components:
-  button-primary:
-    backgroundColor: "{colors.orange}"
-    textColor: "{colors.ink-2}"
-    typography: "{typography.body}"
-    rounded: "{rounded.square}"
-    padding: "0.95rem 1.05rem 0.95rem 1.35rem"
-    height: "4rem"
-  button-primary-hover:
-    backgroundColor: "{colors.acid}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.square}"
-  calibration-tag:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.acid}"
+  threshold-primary:
+    backgroundColor: "{colors.oxidized-brass}"
+    textColor: "{colors.limestone}"
     typography: "{typography.label}"
-    rounded: "{rounded.square}"
-    padding: "0.35rem 0.5rem"
-  project-ledger-row:
-    backgroundColor: "{colors.ink-2}"
-    textColor: "{colors.bone}"
-    rounded: "{rounded.square}"
-    padding: "clamp(1.4rem, 3vw, 3rem)"
+    rounded: "{rounded.structural}"
+    padding: "1rem 1.2rem 1rem 1.5rem"
+    height: "4.5rem"
+  threshold-primary-hover:
+    backgroundColor: "{colors.brass-light}"
+    textColor: "{colors.void}"
+    rounded: "{rounded.structural}"
+  pavilion-opening:
+    backgroundColor: "{colors.void}"
+    textColor: "{colors.limestone}"
+    typography: "{typography.label}"
+    rounded: "{rounded.structural}"
+    padding: "1.2rem 1.4rem"
+    height: "5rem"
 ---
 
 # Design System: Hatim Shakir Portfolio
 
 ## Overview
 
-**Creative North Star: "The Recorded Event Chamber"**
+**Creative North Star: "The Concrete Observatory"**
 
-This system treats engineering as a recorded event: decisions leave trajectories from state and schema through interface and release. It is cinematic, technical, and densely instrumented, using a particle-detector image, a live canvas trace field, measured labels, and verified activity readouts as the visual proof layer.
+The portfolio behaves like a monumental public structure built for close inspection. Visitors cross an atrium, descend through a load-bearing enterprise core, move between project pavilions, and read contribution history as an engraved light instrument. Evidence is part of the architecture rather than a layer of badges applied afterward.
 
-The world is maximal without becoming ornamental. Monumental condensed type collides with narrow rails and plotted signal; hot-orange control planes cut through ultramarine and near-black fields; bone reading surfaces interrupt the dark run. It explicitly refuses the generic developer hero and repeated floating-card grid.
+The world is tactile and maximal, but every material has a job. Real concrete texture carries the focal planes; HTML, CSS, and SVG carry perspective, light, charts, and interaction so the site remains responsive and readable. Near-black voids create the quiet needed between dense rooms, while brass, oxblood, and cobalt behave as construction materials and registration marks rather than generic accents.
 
 **Key Characteristics:**
 
-- Monumental condensed naming overlaps the detector field.
-- Dense rails, ticks, rules, telemetry, and plotted data make evidence visible.
-- Hot orange drives actions and major signal; chartreuse marks calibration and focus.
-- Square instrument controls and hard section boundaries preserve mechanical precision.
-- Public and private work share one newest-first ledger without misrepresenting access.
+- Monumental type sits inside spatial planes, never inside floating cards.
+- Warm limestone and concrete are interrupted by black light wells and oxblood circulation cores.
+- Brass datums hold proof, actions, and measurement; cobalt registers rare technical points.
+- Scroll movement feels like crossing chambers, with a complete static reduced-motion state.
+- Public and private work remain explicit, chronological, and equally legible.
 
 ## Colors
 
-The palette behaves like detector hardware under ultraviolet light: two ink depths carry the chamber, two ultramarines separate systems, bone carries readable matter, and orange plus acid mark different levels of urgency.
+The palette is a full architectural material system: two deep neutrals establish void and shadow, two mineral neutrals carry reading surfaces, and three restrained construction colors separate action, circulation, and registration.
 
 ### Primary
 
-- **Hot Control Orange:** The dominant action and recorded-signal color for the primary action, active indices, ownership axes, the signal section, and selected detector tracks.
+- **Oxblood Circulation Core:** The large vertical cores, select project masses, and structural interruptions that guide movement.
 
 ### Secondary
 
-- **Ultramarine Structure:** The grounded blue field used for archive bands, branded evidence, and structural separation.
-- **Electric Ultramarine:** The brighter blue used for contact, interactive ledger states, and energetic depth.
+- **Oxidized Brass Datum:** The first-fold evidence rail, primary threshold, measurement surfaces, and high-value metadata.
+- **Registration Cobalt:** Rare survey marks, service-shaft indicators, and Salesforce annex identification.
 
 ### Tertiary
 
-- **Calibration Acid:** A rare chartreuse used for focus outlines, calibration corners, detector points, selection, and hover confirmation.
+- **Brass Light:** Hover confirmation, focus, readable data on dark surfaces, and bright edges within the brass family.
 
 ### Neutral
 
-- **Deep Instrument Ink:** The main page field and dark text on light or high-energy surfaces.
-- **Void Ink:** The deepest section and telemetry surface, used where the signal needs maximum contrast.
-- **Warm Detector Bone:** Primary reading color on dark fields and the full experience-section surface.
-- **Cool Readout Muted:** Secondary labels and low-priority telemetry on dark fields.
+- **Observatory Void:** The main project field, contact chamber, and highest-contrast reading surface.
+- **Shadow Concrete:** The UnifyApps floors and deep structural recesses.
+- **Warm Concrete:** The material bridge between limestone and void.
+- **Cut Limestone:** The main light reading surface and primary text on dark chambers.
 
 ### Named Rules
 
-**The Split-Signal Rule.** Orange means action or primary recorded energy; acid means calibration, focus, or confirmation. Do not use them interchangeably.
+**The Material Role Rule.** Oxblood moves visitors, brass measures or opens, and cobalt registers. Do not swap these roles for decorative variety.
 
-**The Bone Interruption Rule.** Light surfaces are deliberate chapter changes, not a default card color.
+**The Void Earns Density Rule.** Near-black fields surround the densest evidence; light stone is reserved for spatial arrival and chapter changes.
 
 ## Typography
 
-**Display Font:** Barlow Condensed (with Arial Narrow and sans-serif fallbacks)<br>
-**Body Font:** Clash Display (with sans-serif fallback)<br>
-**Label/Mono Font:** UI monospace (with SFMono-Regular, Menlo, Monaco, Consolas, and monospace fallbacks)
+**Display Font:** Barlow Condensed (with Arial Narrow fallback)<br>
+**Body Font:** Clash Display (with Helvetica Neue fallback)<br>
+**Label Font:** Barlow Condensed
 
-**Character:** Barlow Condensed turns the name into monumental equipment labeling. Clash Display carries assertive editorial reading, while the monospace layer makes dates, indices, evidence, and telemetry feel recorded rather than decorated.
+**Character:** Barlow Condensed has the compression and vertical force of architectural wayfinding and concrete inscription. Clash Display keeps technical explanations direct and contemporary without turning the portfolio into a plan drawing or terminal interface.
 
 ### Hierarchy
 
-- **Display:** Semibold, tightly tracked, uppercase, and compressed vertically; reserved for the two-line first-viewport name and allowed to overlap the event chamber.
-- **Headline:** Heavy, tightly tracked section statements with balanced wrapping and short measures, typically no more than 8–13 characters per line.
-- **Title:** Large project and record names that carry the same compressed rhythm at a smaller scale.
-- **Body:** Regular Clash Display for explanations, typically limited to 43–65 characters per line and set at a readable 1.45–1.55 line height.
-- **Label:** Small uppercase monospace with open tracking for dates, run numbers, telemetry, access states, evidence, and chart coordinates.
+- **Display:** Bold, uppercase, compressed, and capped at 6rem; used for identity and pavilion names.
+- **Headline:** Semibold Clash Display with tight tracking and a 6rem ceiling; used for chamber-defining statements.
+- **Title:** Bold condensed type for institutional names such as Salesforce and smaller structural records.
+- **Body:** Regular Clash Display around 1rem, with a 1.55–1.6 line height and 34–58 character measures depending on the room.
+- **Label:** Semibold condensed uppercase with open tracking for dates, levels, access state, methods, and actions.
 
 ### Named Rules
 
-**The Three-Instrument Rule.** Use condensed display for identity, Clash for narrative and titles, and monospace only for recorded metadata.
+**The Inscription and Explanation Rule.** Condensed type names, measures, and directs; Clash Display explains. Neither face impersonates the other role.
+
+**The Heading Carries Itself Rule.** Do not place kickers or eyebrows above headings. Supporting role and context belong below the statement or on an independent structural datum.
 
 ## Layout
 
-The desktop first viewport is a four-part instrument: numbered rail, narrative and monumental name, dense chamber, then verified edge readouts. The main sections use asymmetric two-column grids, offset evidence bands, hard ledger rows, and vertical detector spines instead of centered card collections. Repeated 1px rules establish alignment and continuity.
+Desktop composition uses an asymmetric architectural section: a six-level index, a broad textured wall, a black light well, and a full-width brass datum. Subsequent chambers use different spatial densities inside the same grammar: UnifyApps stacks around a service shaft, projects alternate mass and openings, the archive becomes a foundation register, and contributions converge on a sundial origin.
 
-Section padding follows a fluid block and inline rhythm. At the 1100px breakpoint, the header simplifies, readouts move over the chamber, ownership and project ledgers reduce columns, and the signal section becomes a single column. At 760px, the numbered rail and secondary navigation items disappear, the chamber moves behind the copy, readouts become a 2×2 block, ledgers become two-column records, and month labels turn vertical. Touch-bearing links remain at least 2.75rem high, with principal controls at 4rem or more.
+Spacing expands by room rather than repeating one container rhythm. Tight internal groups begin around 1rem–1.5rem; room separation grows to 3rem; chamber and atrium transitions reach 5rem and beyond. Main reading regions cap near 86rem so material planes retain scale on wide screens.
 
-**The Ledger-Not-Grid Rule.** Repeated work belongs in ruled rows with dates, access, evidence, and actions aligned to a shared axis; do not convert it into a generic card grid.
+At 1120px, floor evidence reflows beneath its title and narrative. At 820px, the atrium becomes a single processional column, metrics become a 2×2 datum, ownership becomes a vertical section, and pavilions use a persistent number mass beside the text. At 460px, hero copy clears the light shaft, archives simplify, and all touch actions preserve at least 44px of height.
+
+**The Chamber Sequence Rule.** A new section changes density, direction, or material; it does not repeat the preceding section inside a new rectangle.
 
 ## Elevation & Depth
 
-The system has no ambient drop shadows. Depth comes from near-black and ultramarine tonal layers, translucent overlays, 1px rule lines, a fixed particle texture, image/canvas screen blending, and the occasional inset ring used only inside circular detector markers. Surfaces remain flat at rest; hover states change field color rather than lifting.
+Depth is structural rather than atmospheric. Broad, offset, softened shadows belong only where one architectural plane clearly sits in front of another: the lintel over the well, the brass threshold over the void, the UnifyApps core over limestone, and the sundial wall over shadow concrete. Tonal recession and clip-path silhouettes do the rest. No ambient card shadow exists.
 
-**The No-Lift Rule.** Never add card shadows or hover elevation. Change color, rule position, or padding to show state.
+### Shadow Vocabulary
+
+- **Cantilever Shadow:** Large 32–64px soft shadows with a 20–42px offset, used on major slabs.
+- **Threshold Shadow:** A tighter 10–30px offset shadow below the primary action.
+- **Recess Shadow:** Inset or negative-space shadow inside the light well only.
+
+### Named Rules
+
+**The Load Must Be Visible Rule.** A shadow needs a believable plane and direction. Do not add hover lift, halos, or fake embossed material.
 
 ## Shapes
 
-The dominant form language is square and rectilinear: actions, tags, telemetry plates, ledger rows, readout blocks, and section fields use zero radius. Hairline borders and hard full-width boundaries make the interface feel calibrated. Circles are reserved for detector geometry—rail nodes, plotted rings, and the event core—and are not a general component radius.
+The system is rectilinear and square. Controls, registers, floor slabs, and openings use zero radius. Large clip-path cuts create lintels, sloped construction masses, and threshold silhouettes; they belong to spatial composition, not to small component decoration. Circles appear only in the sundial as measured data points and origins.
 
-**The Instrument-Corner Rule.** Controls and containers stay square; circular forms must communicate measurement or detection.
+**The Structural Corner Rule.** Corners stay square. A diagonal cut must communicate mass, passage, or measured geometry.
 
 ## Components
 
-### Primary Action
+### Threshold Actions
 
-- **Shape:** A wide square control with a 4rem minimum height and an arrow held at the far edge.
-- **Default:** Hot-orange field, void-ink text, uppercase Clash label, and asymmetric horizontal padding.
-- **Hover / Focus:** Hover changes the field to calibration acid without lift. Keyboard focus uses the global 3px acid outline with a 4px offset.
+- **Shape:** Wide, square, and at least 4.5rem high, with the action and arrow held at opposite edges.
+- **Primary:** Oxidized brass over concrete texture with cut-limestone text and a real slab shadow.
+- **Hover / Focus:** Hover moves to brass light and void text. Keyboard focus uses a 3px brass-light outline with a 4px offset.
 
 ### Navigation
 
-- **Style:** Compact uppercase monospace links sit in a ruled header; orange numerical prefixes connect navigation to the recorder index.
-- **State:** Default links use bone, hover moves to acid, and the hero ruler marks the current item in orange. Mobile removes low-priority destinations instead of squeezing all labels.
+- **Style:** Condensed uppercase text on the void header; the logo combines semantic text with an authored geometric SVG registration mark.
+- **State:** Hover moves to brass light. On narrow screens, the central navigation is removed while Résumé and the identity remain accessible.
 
-### Calibration Tags
+### Evidence Datum
 
-- **Style:** Small square, 1px acid-outlined tags with uppercase monospace text and a translucent ink field when laid over the chamber.
-- **Use:** Access state, chamber coordinates, or calibration telemetry only; they are not promotional badges.
+- **Style:** A full-width brass `dl` with four equal proof fields, numerical definitions larger than their terms, and hard dividers.
+- **Responsive:** Becomes two columns on mobile without changing the facts or reading order.
 
-### Project Ledger Rows
+### Ownership Floors
 
-- **Corner Style:** Full-width, square, ruled records.
-- **Background:** Void ink at rest; hover cycles through electric ultramarine, hot orange, and calibration acid by row.
-- **Depth:** No shadow. Column rules, large index numerals, and the field-color transition provide structure and feedback.
-- **Content:** Number, date/access, title/body/technology labels, then source or live actions. Private records replace unavailable source links with a lock state.
+- **Style:** One continuous dark structural core with four horizontal floors, a vertical brass shaft, and a cobalt position indicator.
+- **Content:** Each floor carries a number, ownership area, operating signal, description, and evidence note. The floors are not independent cards.
 
-### Event Chamber
+### Project Pavilions
 
-The signature component layers a detector photograph, a responsive canvas, circular rings, 96 ticks, seeded particle trajectories, square hit points, a glowing collision core, frame corners, and edge telemetry. Fine tracks are predominantly blue; orange is reserved for selected trajectories and major ticks; acid marks sparse calibration hits. Pointer parallax is disabled for coarse pointers. Animation stops while offscreen, and reduced-motion renders a deterministic static frame.
+- **Style:** Full-width architectural sections combining a numbered mass, date/access bay, project room, and source/live opening.
+- **State:** Source and live openings invert to brass light on hover. Private records remain text states with lock icons, never dead links.
 
-### Signal Chart
+### Contribution Sundial
 
-Thirteen ruled columns plot monthly contribution volume. Bars rise from a hard baseline with square-root scaling; values and month names use monospace labels. The chart keeps its density on small screens by scrolling horizontally and rotating month labels rather than collapsing into a decorative summary.
+- **Style:** Semantic SVG rays, arcs, origin, and gnomon on a concrete plate, paired with an accessible numeric register and visible methodology.
+- **Motion:** Static by default; the surrounding chamber participates in the shared scroll arrival only when supported and allowed.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** make evidence visible through numbers, dates, access states, plotted data, and technical readouts.
-- **Do** keep actions, tags, ledgers, and information surfaces square and shadowless.
-- **Do** use orange for primary energy and acid for calibration, focus, and confirmation.
-- **Do** preserve the complete static detector frame and near-instant state changes when reduced motion is requested.
-- **Do** keep public and private project states explicit and readable.
+- **Do** use material planes at room scale rather than applying texture to every small element.
+- **Do** keep claims tied to authenticated metrics, chronological projects, or contribution evidence.
+- **Do** use structural shadow, overlap, and negative space to create physical depth.
+- **Do** keep public, private, source, and live states visibly distinct.
+- **Do** preserve a complete reduced-motion experience and direct keyboard focus.
 
 ### Don't:
 
-- **Don't** fall back to a centered developer hero followed by a generic card grid.
-- **Don't** add rounded pills, soft cards, glassmorphism, or ambient drop shadows.
-- **Don't** use the monospace face for narrative paragraphs or the condensed face for dense reading.
-- **Don't** animate the chamber for coarse pointers, offscreen visitors, or reduced-motion users.
-- **Don't** hide evidence behind purely decorative motion or inaccessible interactions.
+- **Don't** reintroduce detectors, dashboards, editorial-zine columns, glass, rounded cards, or generic portfolio grids.
+- **Don't** ship a concept comp, architectural photograph, or rasterized UI as the page background.
+- **Don't** use CSS bevels, embossed text, gradient text, glowing edges, or decorative blueprint grids to imitate material.
+- **Don't** put an eyebrow above a heading or turn architectural labels into decorative technical costume.
+- **Don't** give every section the same density, silhouette, or reveal motion.

@@ -1,0 +1,6 @@
+Use case: ui-mockup
+Asset type: non-production desktop web portfolio composition study, 16:10 landscape first viewport with a glimpse of second section
+Primary request: Create a high-fidelity but clearly conceptual website composition for Hatim Shakir's portfolio in the Concrete Observatory / Monumental Architecture direction.
+Structure: a slim architectural datum header; a vast asymmetric atrium occupying the full fold; left edge carries vertical floor coordinates; a massive warm-limestone structural wall spans roughly 65% width with the name HATIM SHAKIR in monumental condensed lettering intersecting the wall; the remaining right third is a near-black light well with four factual numeric readouts and a brass threshold CTA; at the bottom, reveal the beginning of an UnifyApps structural-core section as stacked floor plates.
+Text: HATIM SHAKIR; SOFTWARE ENGINEER; ENTER THE WORK; 4,176 CONTRIBUTIONS; UNIFYAPPS.
+Constraints: website surface, not a poster; no cards, dashboard, editorial zine, detector, glass, rounded corners, gradients, fake bevels, invented claims, fake code UI, device frame, or watermark.

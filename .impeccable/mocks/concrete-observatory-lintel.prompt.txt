@@ -1,0 +1,6 @@
+Use case: ui-mockup
+Asset type: non-production desktop web portfolio composition study, 16:10 landscape, showing full first viewport and top of next chamber
+Primary request: Create a second composition study for Hatim Shakir's Concrete Observatory / Monumental Architecture portfolio, varying topology while preserving the exact world.
+Structure: the page is an architectural section drawing turned into an immersive site. A full-height oxblood circulation core sits off-center; a colossal cantilevered limestone title slab crosses it diagonally in perspective; HATIM SHAKIR occupies the slab at enormous scale; an open black void below becomes the primary threshold action; verified GitHub metrics are engraved along a brass horizontal datum; the next UnifyApps section appears as interlocking floor plates rather than cards.
+Text: HATIM SHAKIR; SYSTEMS / INTERFACES / AGENTS; CROSS THE THRESHOLD; UNIFYAPPS; 4,176.
+Constraints: responsive website UI, not a poster or photograph; no cards, dashboard, editorial zine, detector, glass, rounded shapes, gradients, fake bevels, invented metrics, device frame, or watermark.

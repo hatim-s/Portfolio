@@ -1,0 +1,6 @@
+Use case: ui-mockup
+Asset type: non-production desktop web portfolio composition study, 16:10 landscape first viewport plus a second-section reveal
+Primary request: Create a third distinct composition study for Hatim Shakir's Concrete Observatory / Monumental Architecture portfolio.
+Structure: a visitor looks down a monumental central processional axis. Two towering concrete walls form a narrow near-black light well in the center; HATIM runs vertically on the left wall and SHAKIR horizontally across a limestone lintel; the primary action is a literal open threshold at the vanishing point. Floor numbers 00–05 form oxblood wayfinding. A brass registration rail crosses the fold carrying the verified metrics. The beginning of the Projects chamber below shows staggered pavilions as architectural volumes, not cards.
+Text: HATIM; SHAKIR; SOFTWARE ENGINEER; ENTER THE WORK; 4,176 CONTRIBUTIONS; PROJECT PAVILIONS.
+Constraints: website navigation and CTA obvious; no rounded cards, card grid, dashboard, editorial zine, detector, glass, gradients, fake bevels, invented facts, device frame, or watermark.

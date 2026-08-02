@@ -7,19 +7,19 @@
 }
 
 :root {
-  font-family: "Clash Display", sans-serif;
-  color: #eeeada;
-  background: #061129;
+  font-family: "Clash Display", "Helvetica Neue", sans-serif;
+  color: #1e1b17;
+  background: #181714;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --ink: #061129;
-  --ink-2: #020814;
-  --blue: #173fd1;
-  --blue-electric: #214bd8;
-  --orange: #ff5600;
-  --bone: #eeeada;
-  --acid: #d7ff1f;
-  --muted: #aeb9d8;
+  --void: #181714;
+  --shadow: #24211c;
+  --concrete: #b7a894;
+  --limestone: #e7dfcf;
+  --brass: #9b7a43;
+  --brass-light: #d0ad68;
+  --oxblood: #6d1b26;
+  --cobalt: #17498f;
 }
 
 * {
@@ -27,8 +27,8 @@
 }
 
 html {
-  background: var(--ink);
-  scrollbar-color: var(--orange) var(--ink-2);
+  background: var(--void);
+  scrollbar-color: var(--brass) var(--void);
 }
 
 body {
@@ -36,17 +36,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
-  background: var(--ink);
+  background: var(--void);
 }
 
-body,
 button,
 a {
-  cursor: default;
-}
-
-a,
-button {
   font: inherit;
 }
 
@@ -56,17 +50,13 @@ a {
   cursor: pointer;
 }
 
-button {
-  cursor: pointer;
-}
-
 ::selection {
-  color: var(--ink);
-  background: var(--acid);
+  color: var(--limestone);
+  background: var(--oxblood);
 }
 
 :focus-visible {
-  outline: 3px solid var(--acid);
+  outline: 3px solid var(--brass-light);
   outline-offset: 4px;
 }
 
@@ -80,6 +70,7 @@ button {
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
 }
