@@ -1,85 +1,18 @@
 @font-face {
   font-family: "Clash Display";
   src: url("./assets/fonts/clash-display/fonts/ClashDisplay-Variable.woff2") format("woff2");
-  font-weight: 200 700;
   font-display: swap;
   font-style: normal;
-}
-
-:root {
-  font-family: "Clash Display", sans-serif;
-  color: #eeeada;
-  background: #061129;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  --ink: #061129;
-  --ink-2: #020814;
-  --blue: #173fd1;
-  --blue-electric: #214bd8;
-  --orange: #ff5600;
-  --bone: #eeeada;
-  --acid: #d7ff1f;
-  --muted: #aeb9d8;
-}
-
-* {
-  box-sizing: border-box;
+  font-weight: 200 700;
 }
 
 html {
-  background: var(--ink);
-  scrollbar-color: var(--orange) var(--ink-2);
+  min-width: 320px;
 }
 
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  overflow-x: hidden;
-  background: var(--ink);
-}
-
-body,
-button,
-a {
-  cursor: default;
-}
-
-a,
-button {
-  font: inherit;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-button {
-  cursor: pointer;
-}
-
-::selection {
-  color: var(--ink);
-  background: var(--acid);
-}
-
-:focus-visible {
-  outline: 3px solid var(--acid);
-  outline-offset: 4px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }

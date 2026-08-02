@@ -37,6 +37,7 @@ The portfolio is evaluated quickly on desktop and mobile, often from a shared li
 - Voice: technically precise, direct, curious, ambitious, and human; never resume boilerplate.
 - Binding visual brief: cinematic, immersive, modern, maximal rather than minimalist, and delightful to explore.
 - Keep the existing GitHub, LinkedIn, LeetCode, email, and resume access.
+- This branch expresses the portfolio as a Bioluminescent Memory Garden: evidence grows through roots, specimens, and seasonal rings rather than dashboards, cards, or developer-console metaphors.
 
 ## Evidence on Hand
 

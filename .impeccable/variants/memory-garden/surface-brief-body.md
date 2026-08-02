@@ -1,10 +1,3 @@
----
-version: 1
-slug: "src-app-tsx"
-primary_target: "src/App.tsx"
-related_targets: ["index.html","src/components/MemoryGarden.tsx"]
----
-
 # Portfolio Home — Bioluminescent Memory Garden
 
 ## Scope and mode

@@ -1,207 +1,208 @@
 ---
 name: Hatim Shakir Portfolio
-description: A particle-collider event recorder for engineering work, ownership, and signal.
+description: A bioluminescent memory garden for engineering evidence, ownership, and work.
 colors:
-  ink: "#061129"
-  ink-2: "#020814"
-  blue: "#173fd1"
-  blue-electric: "#214bd8"
-  orange: "#ff5600"
-  bone: "#eeeada"
-  acid: "#d7ff1f"
-  muted: "#aeb9d8"
+  peat: "#050807"
+  peat-soft: "#09100d"
+  aubergine: "#1b1021"
+  cyan: "#49e8ec"
+  chlorophyll: "#80e270"
+  ember: "#f47d3f"
+  moon: "#efedd9"
+  moon-muted: "#c2c8b6"
 typography:
   display:
-    fontFamily: '"Barlow Condensed", "Arial Narrow", sans-serif'
-    fontSize: "clamp(7rem, 12vw, 12rem)"
-    fontWeight: 600
-    lineHeight: 0.68
-    letterSpacing: "-0.025em"
+    fontFamily: '"Gloock", Georgia, serif'
+    fontSize: "clamp(4.1rem, 8vw, 6rem)"
+    fontWeight: 400
+    lineHeight: 0.82
+    letterSpacing: "-0.035em"
   headline:
-    fontFamily: '"Clash Display", sans-serif'
-    fontSize: "clamp(3rem, 6vw, 6rem)"
-    fontWeight: 650
-    lineHeight: 0.9
-    letterSpacing: "-0.04em"
+    fontFamily: '"Gloock", Georgia, serif'
+    fontSize: "clamp(3.1rem, 6.5vw, 6rem)"
+    fontWeight: 400
+    lineHeight: 0.96
+    letterSpacing: "-0.035em"
   title:
-    fontFamily: '"Clash Display", sans-serif'
-    fontSize: "clamp(2.4rem, 5vw, 5.7rem)"
-    fontWeight: 650
-    lineHeight: 0.9
-    letterSpacing: "-0.04em"
+    fontFamily: '"Gloock", Georgia, serif'
+    fontSize: "clamp(2rem, 3.5vw, 3.35rem)"
+    fontWeight: 400
+    lineHeight: 1
   body:
-    fontFamily: '"Clash Display", sans-serif'
+    fontFamily: '"Clash Display", "Avenir Next", sans-serif'
     fontSize: "1rem"
     fontWeight: 400
-    lineHeight: 1.55
+    lineHeight: 1.65
   label:
-    fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    fontSize: "0.68rem"
-    fontWeight: 500
-    lineHeight: 1.5
-    letterSpacing: "0.06em"
+    fontFamily: '"Clash Display", "Avenir Next", sans-serif'
+    fontSize: "0.72rem"
+    fontWeight: 400
+    lineHeight: 1.25
+    letterSpacing: "0.04em"
 rounded:
-  square: "0"
+  seed-husk: "46% 54% 49% 51% / 60% 46% 54% 40%"
+  organism: "48% 52% 45% 55% / 55% 42% 58% 45%"
+spacing:
+  touch: "2.75rem"
+  section-inline: "clamp(1.25rem, 5vw, 6rem)"
+  section-block: "clamp(5.5rem, 10vw, 10rem)"
 components:
-  button-primary:
-    backgroundColor: "{colors.orange}"
-    textColor: "{colors.ink-2}"
-    typography: "{typography.body}"
-    rounded: "{rounded.square}"
-    padding: "0.95rem 1.05rem 0.95rem 1.35rem"
-    height: "4rem"
-  button-primary-hover:
-    backgroundColor: "{colors.acid}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.square}"
-  calibration-tag:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.acid}"
-    typography: "{typography.label}"
-    rounded: "{rounded.square}"
-    padding: "0.35rem 0.5rem"
-  project-ledger-row:
-    backgroundColor: "{colors.ink-2}"
-    textColor: "{colors.bone}"
-    rounded: "{rounded.square}"
-    padding: "clamp(1.4rem, 3vw, 3rem)"
+  seed-action:
+    backgroundColor: "{colors.moon}"
+    textColor: "{colors.peat}"
+    rounded: "{rounded.seed-husk}"
+    padding: "0.75rem 1.2rem 0.75rem 0.9rem"
+    height: "5.15rem"
+  seed-action-hover:
+    backgroundColor: "{colors.cyan}"
+    textColor: "{colors.peat}"
+    rounded: "{rounded.organism}"
+  root-heart:
+    backgroundColor: "{colors.moon}"
+    textColor: "{colors.peat}"
+    rounded: "{rounded.organism}"
+    padding: "3.2rem 1.7rem"
 ---
 
 # Design System: Hatim Shakir Portfolio
 
 ## Overview
 
-**Creative North Star: "The Recorded Event Chamber"**
+**Creative North Star: "The Bioluminescent Memory Garden"**
 
-This system treats engineering as a recorded event: decisions leave trajectories from state and schema through interface and release. It is cinematic, technical, and densely instrumented, using a particle-detector image, a live canvas trace field, measured labels, and verified activity readouts as the visual proof layer.
+Engineering evidence is treated as living memory: contributions fruit at the ends of roots, product ownership forms a shared underground system, projects sit in a seed archive, and a year of work leaves a seasonal ring study. The world is immersive and densely authored, but facts remain semantic and readable before the visual organism begins moving.
 
-The world is maximal without becoming ornamental. Monumental condensed type collides with narrow rails and plotted signal; hot-orange control planes cut through ultramarine and near-black fields; bone reading surfaces interrupt the dark run. It explicitly refuses the generic developer hero and repeated floating-card grid.
+The garden is midnight-dark because the portfolio is meant for focused exploration under screen light. Wet botanical material and responsive linework replace the Event Recorder's mechanical instruments. The system rejects dashboard composition, repeated card grids, glass surfaces, and generic neon fields.
 
 **Key Characteristics:**
 
-- Monumental condensed naming overlaps the detector field.
-- Dense rails, ticks, rules, telemetry, and plotted data make evidence visible.
-- Hot orange drives actions and major signal; chartreuse marks calibration and focus.
-- Square instrument controls and hard section boundaries preserve mechanical precision.
-- Public and private work share one newest-first ledger without misrepresenting access.
+- A separately rendered fibrous trunk composes with live canvas roots and spores.
+- High-contrast moonlit serif forms create a botanical editorial silhouette.
+- Cyan marks memory and connection; chlorophyll marks growth; ember marks rare hot nodes.
+- Organic silhouettes are reserved for meaningful organisms and actions, not used as soft decoration everywhere.
+- Evidence remains explicit: dates, access states, methodology, and source/live actions are never hidden by the metaphor.
 
 ## Colors
 
-The palette behaves like detector hardware under ultraviolet light: two ink depths carry the chamber, two ultramarines separate systems, bone carries readable matter, and orange plus acid mark different levels of urgency.
+The full palette is drenched across large chapter fields, with three biological signals held to distinct roles.
 
 ### Primary
 
-- **Hot Control Orange:** The dominant action and recorded-signal color for the primary action, active indices, ownership axes, the signal section, and selected detector tracks.
+- **Bioluminescent Memory Cyan:** The main connective signal for roots, active links, the seasonal canopy, and keyboard focus.
 
 ### Secondary
 
-- **Ultramarine Structure:** The grounded blue field used for archive bands, branded evidence, and structural separation.
-- **Electric Ultramarine:** The brighter blue used for contact, interactive ledger states, and energetic depth.
+- **Living Chlorophyll:** Growth, navigation marks, technical subheads, and the full practice-tissue chapter.
+- **Fruiting Ember:** Rare terminal nodes and unusually concentrated activity; never a general action color.
 
 ### Tertiary
 
-- **Calibration Acid:** A rare chartreuse used for focus outlines, calibration corners, detector points, selection, and hover confirmation.
+- **Deep Aubergine Membrane:** The seed archive and final clearing use aubergine to separate living chapters from peat-dark space.
 
 ### Neutral
 
-- **Deep Instrument Ink:** The main page field and dark text on light or high-energy surfaces.
-- **Void Ink:** The deepest section and telemetry surface, used where the signal needs maximum contrast.
-- **Warm Detector Bone:** Primary reading color on dark fields and the full experience-section surface.
-- **Cool Readout Muted:** Secondary labels and low-priority telemetry on dark fields.
+- **Midnight Peat:** Main ground and dark text on pale or green fields.
+- **Soft Peat:** The seasonal study's slightly lifted dark field.
+- **Milky Moonlight:** Primary reading color and the seed-husk action.
+- **Lichen Moon:** Secondary reading color on dark fields.
 
 ### Named Rules
 
-**The Split-Signal Rule.** Orange means action or primary recorded energy; acid means calibration, focus, or confirmation. Do not use them interchangeably.
+**The Biological Signal Rule.** Cyan connects, chlorophyll grows, and ember fruits. A component does not swap those meanings for novelty.
 
-**The Bone Interruption Rule.** Light surfaces are deliberate chapter changes, not a default card color.
+**The Chapter Field Rule.** Color owns full habitats—peat hero, moon roots, aubergine archive, green tissue—instead of appearing as scattered accent confetti.
 
 ## Typography
 
-**Display Font:** Barlow Condensed (with Arial Narrow and sans-serif fallbacks)<br>
-**Body Font:** Clash Display (with sans-serif fallback)<br>
-**Label/Mono Font:** UI monospace (with SFMono-Regular, Menlo, Monaco, Consolas, and monospace fallbacks)
+**Display Font:** Gloock (with Georgia and serif fallback)
 
-**Character:** Barlow Condensed turns the name into monumental equipment labeling. Clash Display carries assertive editorial reading, while the monospace layer makes dates, indices, evidence, and telemetry feel recorded rather than decorated.
+**Body Font:** Clash Display (with Avenir Next and sans-serif fallback)
+
+**Character:** Gloock's elongated high-contrast forms read like botanical specimen lettering at large scale. Clash Display keeps descriptions, navigation, data, and actions direct without falling into technical-costume monospace.
 
 ### Hierarchy
 
-- **Display:** Semibold, tightly tracked, uppercase, and compressed vertically; reserved for the two-line first-viewport name and allowed to overlap the event chamber.
-- **Headline:** Heavy, tightly tracked section statements with balanced wrapping and short measures, typically no more than 8–13 characters per line.
-- **Title:** Large project and record names that carry the same compressed rhythm at a smaller scale.
-- **Body:** Regular Clash Display for explanations, typically limited to 43–65 characters per line and set at a readable 1.45–1.55 line height.
-- **Label:** Small uppercase monospace with open tracking for dates, run numbers, telemetry, access states, evidence, and chart coordinates.
+- **Display:** Regular Gloock, capped at 6rem with a tight 0.82 line height; used for the two-line name.
+- **Headline:** Regular Gloock, fluid from 3.1rem to 6rem; used for chapter statements with safe wrapping.
+- **Title:** Regular Gloock, fluid from 2rem to 3.35rem; used for ownership roots and archives.
+- **Body:** Regular Clash Display at 1rem and 1.65 line height; constrained to roughly 65–68 characters where reading is dense.
+- **Label:** Regular Clash Display at 0.72rem with modest tracking; used for dates, access, methodology, and evidence—not as an invented eyebrow.
 
 ### Named Rules
 
-**The Three-Instrument Rule.** Use condensed display for identity, Clash for narrative and titles, and monospace only for recorded metadata.
+**The Living Letter Rule.** Display type may overlap the organism and compress vertically, but narrative copy stays unwarped and calmly measured.
+
+**The No Technical Costume Rule.** Data is allowed to look like the rest of the garden. Monospace is not required to make evidence credible.
 
 ## Layout
 
-The desktop first viewport is a four-part instrument: numbered rail, narrative and monumental name, dense chamber, then verified edge readouts. The main sections use asymmetric two-column grids, offset evidence bands, hard ledger rows, and vertical detector spines instead of centered card collections. Repeated 1px rules establish alignment and continuity.
+Desktop uses asymmetric habitats instead of a centered container: the first viewport is a left clearing against a right trunk, the experience chapter is a sticky root heart feeding four branches, and the project archive is one continuous specimen stream. Section padding follows the fluid block and inline spacing tokens rather than a uniform wrapper.
 
-Section padding follows a fluid block and inline rhythm. At the 1100px breakpoint, the header simplifies, readouts move over the chamber, ownership and project ledgers reduce columns, and the signal section becomes a single column. At 760px, the numbered rail and secondary navigation items disappear, the chamber moves behind the copy, readouts become a 2×2 block, ledgers become two-column records, and month labels turn vertical. Touch-bearing links remain at least 2.75rem high, with principal controls at 4rem or more.
+At 1100px, navigation and project actions simplify. At 760px, every multi-column habitat becomes a single rooted stream: hero metrics form a 2×2 bed, ownership branches hang below the heart, seed specimens use a narrow persistent spine, and the canopy legend becomes a three-column key. All 390px captures retain the same content order and exact width without horizontal scroll.
 
-**The Ledger-Not-Grid Rule.** Repeated work belongs in ruled rows with dates, access, evidence, and actions aligned to a shared axis; do not convert it into a generic card grid.
+**The Rooted Sequence Rule.** Repeated information joins a shared connective structure. It does not become a free-floating card collection.
 
 ## Elevation & Depth
 
-The system has no ambient drop shadows. Depth comes from near-black and ultramarine tonal layers, translucent overlays, 1px rule lines, a fixed particle texture, image/canvas screen blending, and the occasional inset ring used only inside circular detector markers. Surfaces remain flat at rest; hover states change field color rather than lifting.
+Depth is layered rather than lifted. The hero combines one genuine wet-fiber raster plate with canvas glow, translucent CSS membranes, and dark tonal overlap. Later chapters are intentionally flatter so the focal organism stays singular. No generic glass system or ambient card shadow exists.
 
-**The No-Lift Rule.** Never add card shadows or hover elevation. Change color, rule position, or padding to show state.
+### Shadow Vocabulary
+
+- **Node Bloom:** Bounded 5–18px cyan/ember glows mark terminal biological energy in the canvas and canopy.
+- **Membrane Depth:** Large inset and soft ambient shadows are limited to irregular botanical membranes and never used under rectangular content.
+
+**The Material Before Glow Rule.** A glow may reveal a root or spore; it cannot substitute for the material the focal element promises.
 
 ## Shapes
 
-The dominant form language is square and rectilinear: actions, tags, telemetry plates, ledger rows, readout blocks, and section fields use zero radius. Hairline borders and hard full-width boundaries make the interface feel calibrated. Circles are reserved for detector geometry—rail nodes, plotted rings, and the event core—and are not a general component radius.
+The system uses asymmetric biological silhouettes: seed husks, membranes, core rings, and root lines. Their uneven elliptical radii are meaning-bearing. Reading surfaces remain open or ruled rather than placed inside rounded rectangles. Circles appear only as growth rings, spores, and root terminals.
 
-**The Instrument-Corner Rule.** Controls and containers stay square; circular forms must communicate measurement or detection.
+**The Organism-Only Curve Rule.** Organic radii belong to something alive or to an action framed as a seed; ordinary information does not receive a decorative blob container.
 
 ## Components
 
-### Primary Action
+### Seed Action
 
-- **Shape:** A wide square control with a 4rem minimum height and an arrow held at the far edge.
-- **Default:** Hot-orange field, void-ink text, uppercase Clash label, and asymmetric horizontal padding.
-- **Hover / Focus:** Hover changes the field to calibration acid without lift. Keyboard focus uses the global 3px acid outline with a 4px offset.
+- **Shape:** A wide irregular husk with a second offset botanical outline.
+- **Primary:** Moonlight on peat with an authored seed SVG, direct action text, and downward route cue.
+- **Hover / Focus:** Hover blooms to cyan and changes the husk silhouette; focus uses the global 3px cyan outline with a 5px offset.
 
 ### Navigation
 
-- **Style:** Compact uppercase monospace links sit in a ruled header; orange numerical prefixes connect navigation to the recorder index.
-- **State:** Default links use bone, hover moves to acid, and the hero ruler marks the current item in orange. Mobile removes low-priority destinations instead of squeezing all labels.
+- A small seed mark and restrained Clash labels sit along one root-hair line. Desktop shows four destinations and a contact action; mobile preserves brand and contact instead of squeezing the whole nav.
+- Hover and focus move to cyan. Touch-bearing links maintain at least 2.75rem height.
 
-### Calibration Tags
+### Seed Specimen
 
-- **Style:** Small square, 1px acid-outlined tags with uppercase monospace text and a translucent ink field when laid over the chamber.
-- **Use:** Access state, chamber coordinates, or calibration telemetry only; they are not promotional badges.
+- Each project is a full-width ruled specimen with seed index, real date/access, large title, description, technology list, and honest source/live/private state.
+- Seed chroma rotates through cyan, chlorophyll, ember, and moon while the reading surface stays aubergine.
 
-### Project Ledger Rows
+### Root Heart and Branches
 
-- **Corner Style:** Full-width, square, ruled records.
-- **Background:** Void ink at rest; hover cycles through electric ultramarine, hot orange, and calibration acid by row.
-- **Depth:** No shadow. Column rules, large index numerals, and the field-color transition provide structure and feedback.
-- **Content:** Number, date/access, title/body/technology labels, then source or live actions. Private records replace unavailable source links with a lock state.
+- The central UnifyApps organism is sticky on desktop and static on mobile. Four branches connect with explicit line geometry; each contains a title, system action, description, and evidence note.
 
-### Event Chamber
+### Seasonal Canopy
 
-The signature component layers a detector photograph, a responsive canvas, circular rings, 96 ticks, seeded particle trajectories, square hit points, a glowing collision core, frame corners, and edge telemetry. Fine tracks are predominantly blue; orange is reserved for selected trajectories and major ticks; acid marks sparse calibration hits. Pointer parallax is disabled for coarse pointers. Animation stops while offscreen, and reduced-motion renders a deterministic static frame.
+- Thirteen SVG branches use square-root-scaled reach, accompanied by a semantic ordered legend and methodology. The high July node fruits in ember.
 
-### Signal Chart
+### Living Trunk
 
-Thirteen ruled columns plot monthly contribution volume. Bars rise from a hard baseline with square-root scaling; values and month names use monospace labels. The chart keeps its density on small screens by scrolling horizontally and rotating month labels rather than collapsing into a decorative summary.
+- A compressed production plate supplies wet material. Canvas 2D adds recursive fibers, terminal glows, pointer pull, and spores; rendering pauses offscreen and becomes deterministic under reduced motion.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** make evidence visible through numbers, dates, access states, plotted data, and technical readouts.
-- **Do** keep actions, tags, ledgers, and information surfaces square and shadowless.
-- **Do** use orange for primary energy and acid for calibration, focus, and confirmation.
-- **Do** preserve the complete static detector frame and near-instant state changes when reduced motion is requested.
-- **Do** keep public and private project states explicit and readable.
+- **Do** make verified numbers, dates, and access states part of the organism rather than a separate dashboard.
+- **Do** keep raster material separate from semantic text and responsive interaction.
+- **Do** reserve ember for rare, concentrated fruiting signals.
+- **Do** provide a complete static composition when reduced motion is requested.
+- **Do** reflow root systems into one clear stream on small screens.
 
 ### Don't:
 
-- **Don't** fall back to a centered developer hero followed by a generic card grid.
-- **Don't** add rounded pills, soft cards, glassmorphism, or ambient drop shadows.
-- **Don't** use the monospace face for narrative paragraphs or the condensed face for dense reading.
-- **Don't** animate the chamber for coarse pointers, offscreen visitors, or reduced-motion users.
-- **Don't** hide evidence behind purely decorative motion or inaccessible interactions.
+- **Don't** load approved comps as production backgrounds or rasterize semantic UI.
+- **Don't** rebuild the world as neon gradients, particles, a terminal, or a command dashboard.
+- **Don't** use glass panels, repeated equal cards, gradient text, or decorative eyebrow labels.
+- **Don't** introduce generic rounded rectangles into the specimen archive.
+- **Don't** animate offscreen or make motion carry information unavailable in the static document.

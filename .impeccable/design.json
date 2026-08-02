@@ -1,65 +1,34 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-02T04:09:16Z",
+  "generatedAt": "2026-08-02T05:01:18Z",
   "title": "Design System: Hatim Shakir Portfolio",
   "extensions": {
     "colorMeta": {
-      "ink": {
-        "role": "neutral",
-        "displayName": "Deep Instrument Ink",
-        "tonalRamp": ["oklch(15% 0.052 262.9)", "oklch(26% 0.052 262.9)", "oklch(37% 0.052 262.9)", "oklch(48% 0.052 262.9)", "oklch(59% 0.052 262.9)", "oklch(70% 0.052 262.9)", "oklch(82% 0.052 262.9)", "oklch(94% 0.052 262.9)"]
-      },
-      "ink-2": {
-        "role": "neutral",
-        "displayName": "Void Ink",
-        "tonalRamp": ["oklch(15% 0.031 255.4)", "oklch(26% 0.031 255.4)", "oklch(37% 0.031 255.4)", "oklch(48% 0.031 255.4)", "oklch(59% 0.031 255.4)", "oklch(70% 0.031 255.4)", "oklch(82% 0.031 255.4)", "oklch(94% 0.031 255.4)"]
-      },
-      "blue": {
-        "role": "secondary",
-        "displayName": "Ultramarine Structure",
-        "tonalRamp": ["oklch(15% 0.226 265.2)", "oklch(26% 0.226 265.2)", "oklch(37% 0.226 265.2)", "oklch(48% 0.226 265.2)", "oklch(59% 0.226 265.2)", "oklch(70% 0.226 265.2)", "oklch(82% 0.226 265.2)", "oklch(94% 0.226 265.2)"]
-      },
-      "blue-electric": {
-        "role": "secondary",
-        "displayName": "Electric Ultramarine",
-        "tonalRamp": ["oklch(15% 0.220 265.4)", "oklch(26% 0.220 265.4)", "oklch(37% 0.220 265.4)", "oklch(48% 0.220 265.4)", "oklch(59% 0.220 265.4)", "oklch(70% 0.220 265.4)", "oklch(82% 0.220 265.4)", "oklch(94% 0.220 265.4)"]
-      },
-      "orange": {
-        "role": "primary",
-        "displayName": "Hot Control Orange",
-        "tonalRamp": ["oklch(15% 0.217 39)", "oklch(26% 0.217 39)", "oklch(37% 0.217 39)", "oklch(48% 0.217 39)", "oklch(59% 0.217 39)", "oklch(70% 0.217 39)", "oklch(82% 0.217 39)", "oklch(94% 0.217 39)"]
-      },
-      "bone": {
-        "role": "neutral",
-        "displayName": "Warm Detector Bone",
-        "tonalRamp": ["oklch(15% 0.022 95.3)", "oklch(26% 0.022 95.3)", "oklch(37% 0.022 95.3)", "oklch(48% 0.022 95.3)", "oklch(59% 0.022 95.3)", "oklch(70% 0.022 95.3)", "oklch(82% 0.022 95.3)", "oklch(94% 0.022 95.3)"]
-      },
-      "acid": {
-        "role": "tertiary",
-        "displayName": "Calibration Acid",
-        "tonalRamp": ["oklch(15% 0.219 120.7)", "oklch(26% 0.219 120.7)", "oklch(37% 0.219 120.7)", "oklch(48% 0.219 120.7)", "oklch(59% 0.219 120.7)", "oklch(70% 0.219 120.7)", "oklch(82% 0.219 120.7)", "oklch(94% 0.219 120.7)"]
-      },
-      "muted": {
-        "role": "neutral",
-        "displayName": "Cool Readout Muted",
-        "tonalRamp": ["oklch(15% 0.046 269.9)", "oklch(26% 0.046 269.9)", "oklch(37% 0.046 269.9)", "oklch(48% 0.046 269.9)", "oklch(59% 0.046 269.9)", "oklch(70% 0.046 269.9)", "oklch(82% 0.046 269.9)", "oklch(94% 0.046 269.9)"]
-      }
+      "peat": { "role": "neutral", "displayName": "Midnight Peat", "tonalRamp": ["oklch(15% 0.018 145)", "oklch(26% 0.018 145)", "oklch(37% 0.018 145)", "oklch(48% 0.018 145)", "oklch(59% 0.018 145)", "oklch(70% 0.018 145)", "oklch(82% 0.018 145)", "oklch(94% 0.018 145)"] },
+      "peat-soft": { "role": "neutral", "displayName": "Soft Peat", "tonalRamp": ["oklch(15% 0.024 145)", "oklch(26% 0.024 145)", "oklch(37% 0.024 145)", "oklch(48% 0.024 145)", "oklch(59% 0.024 145)", "oklch(70% 0.024 145)", "oklch(82% 0.024 145)", "oklch(94% 0.024 145)"] },
+      "aubergine": { "role": "secondary", "displayName": "Deep Aubergine Membrane", "tonalRamp": ["oklch(15% 0.055 320)", "oklch(26% 0.055 320)", "oklch(37% 0.055 320)", "oklch(48% 0.055 320)", "oklch(59% 0.055 320)", "oklch(70% 0.055 320)", "oklch(82% 0.055 320)", "oklch(94% 0.055 320)"] },
+      "cyan": { "role": "primary", "displayName": "Bioluminescent Memory Cyan", "tonalRamp": ["oklch(15% 0.13 192)", "oklch(26% 0.13 192)", "oklch(37% 0.13 192)", "oklch(48% 0.13 192)", "oklch(59% 0.13 192)", "oklch(70% 0.13 192)", "oklch(82% 0.13 192)", "oklch(94% 0.13 192)"] },
+      "chlorophyll": { "role": "secondary", "displayName": "Living Chlorophyll", "tonalRamp": ["oklch(15% 0.15 140)", "oklch(26% 0.15 140)", "oklch(37% 0.15 140)", "oklch(48% 0.15 140)", "oklch(59% 0.15 140)", "oklch(70% 0.15 140)", "oklch(82% 0.15 140)", "oklch(94% 0.15 140)"] },
+      "ember": { "role": "tertiary", "displayName": "Fruiting Ember", "tonalRamp": ["oklch(15% 0.14 45)", "oklch(26% 0.14 45)", "oklch(37% 0.14 45)", "oklch(48% 0.14 45)", "oklch(59% 0.14 45)", "oklch(70% 0.14 45)", "oklch(82% 0.14 45)", "oklch(94% 0.14 45)"] },
+      "moon": { "role": "neutral", "displayName": "Milky Moonlight", "tonalRamp": ["oklch(15% 0.025 102)", "oklch(26% 0.025 102)", "oklch(37% 0.025 102)", "oklch(48% 0.025 102)", "oklch(59% 0.025 102)", "oklch(70% 0.025 102)", "oklch(82% 0.025 102)", "oklch(94% 0.025 102)"] },
+      "moon-muted": { "role": "neutral", "displayName": "Lichen Moon", "tonalRamp": ["oklch(15% 0.025 125)", "oklch(26% 0.025 125)", "oklch(37% 0.025 125)", "oklch(48% 0.025 125)", "oklch(59% 0.025 125)", "oklch(70% 0.025 125)", "oklch(82% 0.025 125)", "oklch(94% 0.025 125)"] }
     },
     "typographyMeta": {
-      "display": { "displayName": "Monumental Name", "purpose": "First-viewport identity overlapping the detector field." },
-      "headline": { "displayName": "Section Signal", "purpose": "Short chapter statements with compressed line height." },
-      "title": { "displayName": "Ledger Title", "purpose": "Project and experience record names." },
-      "body": { "displayName": "Technical Narrative", "purpose": "Readable explanations and project descriptions." },
-      "label": { "displayName": "Recorded Metadata", "purpose": "Dates, indices, evidence, telemetry, and chart labels." }
+      "display": { "displayName": "Living Name", "purpose": "The two-line identity inside the first clearing." },
+      "headline": { "displayName": "Chapter Canopy", "purpose": "Large statements that change the scroll habitat." },
+      "title": { "displayName": "Specimen and Root Title", "purpose": "Projects, ownership roots, and archive names." },
+      "body": { "displayName": "Technical Narrative", "purpose": "Readable architecture and evidence copy." },
+      "label": { "displayName": "Evidence Detail", "purpose": "Dates, access, methodology, and compact data labels." }
     },
-    "shadows": [],
+    "shadows": [
+      { "name": "node-bloom", "value": "0 0 18px rgba(73,232,236,.74)", "purpose": "Bounded energy around root terminals." },
+      { "name": "membrane-depth", "value": "inset 30px -40px 90px rgba(73,232,236,.055), 0 24px 110px rgba(0,0,0,.56)", "purpose": "Depth inside the hero organism only." }
+    ],
     "motion": [
-      { "name": "state-fast", "value": "150ms ease-out", "purpose": "Link color and padding feedback." },
-      { "name": "control-fast", "value": "160ms ease-out", "purpose": "Primary action and header state changes." },
-      { "name": "ledger-field", "value": "180ms ease-out", "purpose": "Project-row color and field transitions." },
-      { "name": "signal-rise", "value": "900ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Contribution bars reveal upward from the baseline." },
-      { "name": "chamber-scroll-coupling", "value": "linear, scale(1) rotate(0deg) to scale(1.08) rotate(1.2deg)", "purpose": "Detector plate couples gently to the first 90vh of root scroll when scroll timelines are supported." },
-      { "name": "reduced-motion", "value": "0.01ms; deterministic canvas frame at time 0", "purpose": "Collapses CSS motion and replaces detector animation with one static frame." }
+      { "name": "state-organic", "value": "180ms ease-out", "purpose": "Color and silhouette feedback on links and seed actions." },
+      { "name": "branch-bloom", "value": "1.3s cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Seasonal canopy branches grow from the core." },
+      { "name": "living-trunk", "value": "requestAnimationFrame with IntersectionObserver pause", "purpose": "Pointer-aware root sway and spore drift while visible." },
+      { "name": "reduced-motion", "value": "0.01ms; deterministic canvas at t=0", "purpose": "Complete static garden without lost information." }
     ],
     "breakpoints": [
       { "name": "compact-desktop", "value": "1100px" },
@@ -68,89 +37,73 @@
   },
   "components": [
     {
-      "name": "Primary Work Action",
+      "name": "Seed Archive Action",
       "kind": "button",
-      "refersTo": "button-primary",
-      "description": "The embedded hot-orange action that opens the project ledger.",
-      "html": "<a class=\"ds-primary-action\" href=\"#projects\"><span>ENTER THE WORK</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 7h10v10M7 17 17 7\"/></svg></a>",
-      "css": ".ds-primary-action { display:inline-flex; align-items:center; justify-content:space-between; gap:2.5rem; min-width:min(100%,19.5rem); min-height:4rem; padding:.95rem 1.05rem .95rem 1.35rem; border:0; border-radius:0; color:var(--ink-2,#020814); background:var(--orange,#ff5600); font-family:\"Clash Display\",sans-serif; font-size:1rem; font-weight:650; letter-spacing:.01em; text-decoration:none; transition:background-color 160ms ease-out,color 160ms ease-out; } .ds-primary-action svg { width:1.5rem; height:1.5rem; fill:none; stroke:currentColor; stroke-width:2; } .ds-primary-action:hover { color:var(--ink,#061129); background:var(--acid,#d7ff1f); } .ds-primary-action:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:4px; } .ds-primary-action:active { background:var(--bone,#eeeada); }"
+      "refersTo": "seed-action",
+      "description": "The primary route into projects, framed as an opening seed husk.",
+      "html": "<a class=\"ds-seed-action\" href=\"#projects\"><svg viewBox=\"0 0 64 64\" aria-hidden=\"true\"><path d=\"M32 56C16 47 12 34 17 22 21 12 31 7 32 7c1 0 11 5 15 15 5 12 1 25-15 34Z M32 50V19\"/></svg><span>Enter the seed archive</span></a>",
+      "css": ".ds-seed-action{display:grid;grid-template-columns:2.75rem 1fr;align-items:center;gap:.85rem;min-height:5.15rem;padding:.75rem 1.2rem .75rem .9rem;color:var(--peat,#050807);background:var(--moon,#efedd9);border-radius:46% 54% 49% 51% / 60% 46% 54% 40%;font-family:\"Clash Display\",sans-serif;font-weight:600;text-decoration:none;transition:180ms ease-out}.ds-seed-action svg{width:2.25rem;fill:none;stroke:currentColor;stroke-width:1.4}.ds-seed-action:hover{background:var(--cyan,#49e8ec);border-radius:54% 46% 43% 57% / 47% 60% 40% 53%}.ds-seed-action:focus-visible{outline:3px solid var(--cyan,#49e8ec);outline-offset:5px}"
     },
     {
-      "name": "Recorder Navigation Link",
+      "name": "Garden Navigation",
       "kind": "nav",
-      "description": "A numbered header destination that reads like an instrument index.",
-      "html": "<nav class=\"ds-recorder-nav\" aria-label=\"Example navigation\"><a href=\"#projects\"><span>03</span> Projects</a></nav>",
-      "css": ".ds-recorder-nav { display:flex; align-items:center; padding:0 1rem; min-height:4.75rem; border-bottom:1px solid rgba(238,234,218,.28); color:var(--bone,#eeeada); background:var(--ink,#061129); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; } .ds-recorder-nav a { display:inline-flex; gap:.4rem; align-items:center; min-height:2.75rem; color:inherit; text-decoration:none; transition:color 160ms ease-out; } .ds-recorder-nav span { color:var(--orange,#ff5600); font-size:.56rem; } .ds-recorder-nav a:hover { color:var(--acid,#d7ff1f); } .ds-recorder-nav a:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:4px; } .ds-recorder-nav a:active { color:var(--orange,#ff5600); }"
+      "description": "Quiet direct links held along one root-hair line.",
+      "html": "<nav class=\"ds-garden-nav\"><a href=\"#roots\">Roots</a><a href=\"#projects\">Seed archive</a><a href=\"#seasons\">Seasons</a></nav>",
+      "css": ".ds-garden-nav{display:flex;gap:2rem;align-items:center;min-height:5.5rem;color:var(--moon-muted,#c2c8b6);background:var(--peat,#050807);font-family:\"Clash Display\",sans-serif;font-size:.78rem}.ds-garden-nav a{display:inline-flex;align-items:center;min-height:2.75rem;color:inherit;text-decoration:none}.ds-garden-nav a:hover{color:var(--cyan,#49e8ec)}.ds-garden-nav a:focus-visible{outline:3px solid var(--cyan,#49e8ec);outline-offset:5px}"
     },
     {
-      "name": "Calibration Tag",
-      "kind": "chip",
-      "refersTo": "calibration-tag",
-      "description": "A square readout tag for access state or detector calibration.",
-      "html": "<span class=\"ds-calibration-tag\">PRIVATE SIGNAL / 3954</span>",
-      "css": ".ds-calibration-tag { display:inline-block; padding:.35rem .5rem; border:1px solid var(--acid,#d7ff1f); border-radius:0; color:var(--acid,#d7ff1f); background:rgba(6,17,41,.88); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.58rem; line-height:1.5; letter-spacing:.06em; text-transform:uppercase; }"
-    },
-    {
-      "name": "Project Ledger Row",
+      "name": "Seed Specimen",
       "kind": "card",
-      "refersTo": "project-ledger-row",
-      "description": "A ruled newest-first work record with access state, evidence, stack, and source action.",
-      "html": "<article class=\"ds-project-row\"><div class=\"ds-project-number\">01</div><div class=\"ds-project-date\"><time datetime=\"2026-07\">2026-07</time><span>PUBLIC</span></div><div class=\"ds-project-main\"><h3>Workflow Planner</h3><p>Deterministic evaluation around agent-planned workflow execution.</p><ul><li>TypeScript</li><li>Agents</li></ul></div><a class=\"ds-project-link\" href=\"#source\">SOURCE <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></article>",
-      "css": ".ds-project-row { display:grid; grid-template-columns:5rem 9rem minmax(18rem,1fr) 8rem; min-height:18rem; border-top:1px solid rgba(238,234,218,.45); border-bottom:1px solid rgba(238,234,218,.34); border-radius:0; color:var(--bone,#eeeada); background:var(--ink-2,#020814); font-family:\"Clash Display\",sans-serif; transition:color 180ms ease-out,background-color 180ms ease-out; } .ds-project-row:hover { color:var(--ink-2,#020814); background:var(--blue-electric,#214bd8); } .ds-project-number,.ds-project-date,.ds-project-main,.ds-project-link { padding:clamp(1.4rem,3vw,3rem); border-right:1px solid rgba(238,234,218,.25); } .ds-project-number { display:grid; place-items:center; color:var(--orange,#ff5600); font-size:4rem; font-weight:630; } .ds-project-date { display:flex; flex-direction:column; gap:.8rem; justify-content:center; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.68rem; letter-spacing:.05em; text-transform:uppercase; } .ds-project-date span { width:max-content; padding:.32rem .5rem; border:1px solid var(--acid,#d7ff1f); color:var(--acid,#d7ff1f); } .ds-project-main { display:flex; flex-direction:column; justify-content:center; } .ds-project-main h3 { margin:0 0 1rem; font-size:clamp(2.4rem,5vw,5.7rem); line-height:.9; letter-spacing:-.04em; } .ds-project-main p { max-width:65ch; margin:0; color:#b8c4e5; line-height:1.55; } .ds-project-main ul { display:flex; gap:.45rem; margin:1.35rem 0 0; padding:0; list-style:none; } .ds-project-main li { padding:.3rem .48rem; border:1px solid rgba(238,234,218,.38); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.6rem; } .ds-project-link { display:flex; align-items:center; justify-content:space-between; border-right:0; color:inherit; font-size:.78rem; text-decoration:none; } .ds-project-link svg { width:1rem; fill:none; stroke:currentColor; stroke-width:2; } .ds-project-row:hover .ds-project-main p,.ds-project-row:hover .ds-project-number,.ds-project-row:hover .ds-project-date span { color:currentColor; } .ds-project-link:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:-6px; } .ds-project-link:active { color:var(--acid,#d7ff1f); } @media(max-width:760px){.ds-project-row{grid-template-columns:4rem 1fr}.ds-project-number{grid-row:1/4;padding:1.1rem .5rem;writing-mode:vertical-rl}.ds-project-date,.ds-project-main,.ds-project-link{grid-column:2;border-right:0}.ds-project-main h3{font-size:clamp(2.5rem,14vw,4.5rem)}}"
+      "description": "A ruled newest-first work specimen with honest access and action state.",
+      "html": "<article class=\"ds-specimen\"><div class=\"ds-seed\">01</div><time>2026-07-17</time><div><h3>Rulebook</h3><p>Version-controlled source of truth for agent instructions.</p></div><span>Private</span></article>",
+      "css": ".ds-specimen{display:grid;grid-template-columns:7rem 10rem minmax(18rem,1fr) 7rem;align-items:center;min-height:18rem;border-top:1px solid rgba(239,237,217,.21);color:var(--moon,#efedd9);background:var(--aubergine,#1b1021);font-family:\"Clash Display\",sans-serif}.ds-specimen>*{padding:2rem}.ds-seed{display:grid;place-items:center;color:var(--cyan,#49e8ec);font-family:\"Gloock\",serif}.ds-specimen h3{margin:0 0 1rem;font-family:\"Gloock\",serif;font-size:3.5rem;font-weight:400}.ds-specimen p{color:#d3c5d4}.ds-specimen:focus-within{outline:3px solid var(--cyan,#49e8ec);outline-offset:-5px}"
     },
     {
-      "name": "Chamber Telemetry",
+      "name": "Ownership Root",
       "kind": "custom",
-      "description": "A square edge readout showing subsystem health over the detector field.",
-      "html": "<div class=\"ds-telemetry\"><strong>SUBSYSTEMS</strong><span>TRK&nbsp;&nbsp;OK</span><span>CAL&nbsp;&nbsp;OK</span><span>FLOW&nbsp;OK</span><span>REL&nbsp;&nbsp;OK</span></div>",
-      "css": ".ds-telemetry { display:grid; gap:.28rem; min-width:6.5rem; padding:.75rem; border-left:1px solid var(--acid,#d7ff1f); border-radius:0; color:var(--bone,#eeeada); background:rgba(2,8,20,.72); font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.56rem; letter-spacing:.06em; text-transform:uppercase; } .ds-telemetry strong,.ds-telemetry span:last-child { color:var(--acid,#d7ff1f); }"
+      "description": "One evidence-backed branch fed by the central UnifyApps organism.",
+      "html": "<article class=\"ds-root\"><h3>Workflow intelligence</h3><span>Build + validate</span><p>AI-assisted generation, schema-aware cleanup, and topology validation.</p></article>",
+      "css": ".ds-root{position:relative;min-height:12rem;padding:2rem 2rem 2rem 7rem;border-top:1px solid rgba(49,91,52,.54);color:var(--peat,#050807);background:var(--moon,#efedd9);font-family:\"Clash Display\",sans-serif}.ds-root:before{position:absolute;top:-1px;left:-4rem;width:7rem;height:4rem;border-top:2px solid #315b34;border-radius:50%;content:\"\"}.ds-root h3{margin:0 0 .6rem;font-family:\"Gloock\",serif;font-size:2.5rem;font-weight:400}.ds-root span{color:#4e7150;font-size:.78rem}.ds-root p{max-width:65ch;line-height:1.58}"
     },
     {
-      "name": "Contact Action",
+      "name": "Contact Vine",
       "kind": "button",
-      "description": "A full-width ruled action used in the final contact instrument.",
-      "html": "<a class=\"ds-contact-action\" href=\"mailto:hatimcodes@gmail.com\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 5h18v14H3zM3 6l9 7 9-7\"/></svg><span>Email Hatim</span></a>",
-      "css": ".ds-contact-action { display:grid; grid-template-columns:1.5rem 1fr; gap:1rem; align-items:center; min-height:4.4rem; border-top:1px solid var(--bone,#eeeada); border-bottom:1px solid rgba(238,234,218,.58); border-radius:0; color:var(--bone,#eeeada); background:var(--blue-electric,#214bd8); font-family:\"Clash Display\",sans-serif; font-size:1.05rem; text-decoration:none; transition:color 150ms ease-out,padding 150ms ease-out; } .ds-contact-action svg { width:1.25rem; fill:none; stroke:currentColor; stroke-width:1.8; } .ds-contact-action:hover { padding-left:.75rem; color:var(--acid,#d7ff1f); } .ds-contact-action:focus-visible { outline:3px solid var(--acid,#d7ff1f); outline-offset:4px; } .ds-contact-action:active { color:var(--orange,#ff5600); }"
-    },
-    {
-      "name": "Signal Bar",
-      "kind": "custom",
-      "description": "One ruled monthly contribution column from the dense signal chart.",
-      "html": "<div class=\"ds-signal-month\"><span class=\"ds-signal-value\">417</span><div class=\"ds-signal-track\"><span style=\"height:78%\"></span></div><span class=\"ds-signal-name\">JUL</span></div>",
-      "css": ".ds-signal-month { display:grid; grid-template-rows:auto 1fr auto; gap:.55rem; width:3rem; min-height:18rem; padding:.5rem; color:var(--ink-2,#020814); background:var(--orange,#ff5600); } .ds-signal-value,.ds-signal-name { overflow:hidden; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.56rem; white-space:nowrap; } .ds-signal-track { display:flex; align-items:flex-end; min-height:14rem; border-bottom:1px solid var(--ink-2,#020814); background:rgba(6,17,41,.08); } .ds-signal-track span { display:block; width:100%; min-height:.4rem; background:var(--ink-2,#020814); transform-origin:bottom; animation:ds-signal-rise 900ms cubic-bezier(.16,1,.3,1) both; } @keyframes ds-signal-rise { from { clip-path:inset(100% 0 0); } to { clip-path:inset(0); } } @media(prefers-reduced-motion:reduce){.ds-signal-track span{animation-duration:.01ms;animation-iteration-count:1}}"
+      "description": "A full-width profile or contact route in the final clearing.",
+      "html": "<a class=\"ds-contact-vine\" href=\"mailto:hatimcodes@gmail.com\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 5h18v14H3zM3 6l9 7 9-7\"/></svg>Email Hatim</a>",
+      "css": ".ds-contact-vine{display:grid;grid-template-columns:1.4rem 1fr;gap:1rem;align-items:center;min-height:4.6rem;border-top:1px solid rgba(239,237,217,.34);color:var(--moon,#efedd9);background:var(--aubergine,#1b1021);font-family:\"Clash Display\",sans-serif;text-decoration:none;transition:color 160ms ease-out,padding-left 180ms ease-out}.ds-contact-vine svg{width:1.25rem;fill:none;stroke:currentColor;stroke-width:1.8}.ds-contact-vine:hover{padding-left:.75rem;color:var(--cyan,#49e8ec)}.ds-contact-vine:focus-visible{outline:3px solid var(--cyan,#49e8ec);outline-offset:5px}"
     }
   ],
   "narrative": {
-    "northStar": "The Recorded Event Chamber",
-    "overview": "This system treats engineering as a recorded event: decisions leave trajectories from state and schema through interface and release. It is cinematic, technical, and densely instrumented, using a particle-detector image, a live canvas trace field, measured labels, and verified activity readouts as the visual proof layer.\n\nThe world is maximal without becoming ornamental. Monumental condensed type collides with narrow rails and plotted signal; hot-orange control planes cut through ultramarine and near-black fields; bone reading surfaces interrupt the dark run. It explicitly refuses the generic developer hero and repeated floating-card grid.",
+    "northStar": "The Bioluminescent Memory Garden",
+    "overview": "Engineering evidence is treated as living memory: contributions fruit at the ends of roots, product ownership forms a shared underground system, projects sit in a seed archive, and a year of work leaves a seasonal ring study. The world is immersive and densely authored, but facts remain semantic and readable before the visual organism begins moving.\n\nThe garden is midnight-dark because the portfolio is meant for focused exploration under screen light. Wet botanical material and responsive linework replace the Event Recorder's mechanical instruments. The system rejects dashboard composition, repeated card grids, glass surfaces, and generic neon fields.",
     "keyCharacteristics": [
-      "Monumental condensed naming overlaps the detector field.",
-      "Dense rails, ticks, rules, telemetry, and plotted data make evidence visible.",
-      "Hot orange drives actions and major signal; chartreuse marks calibration and focus.",
-      "Square instrument controls and hard section boundaries preserve mechanical precision.",
-      "Public and private work share one newest-first ledger without misrepresenting access."
+      "A separately rendered fibrous trunk composes with live canvas roots and spores.",
+      "High-contrast moonlit serif forms create a botanical editorial silhouette.",
+      "Cyan marks memory and connection; chlorophyll marks growth; ember marks rare hot nodes.",
+      "Organic silhouettes are reserved for meaningful organisms and actions, not used as soft decoration everywhere.",
+      "Evidence remains explicit: dates, access states, methodology, and source/live actions are never hidden by the metaphor."
     ],
     "rules": [
-      { "name": "The Split-Signal Rule", "body": "Orange means action or primary recorded energy; acid means calibration, focus, or confirmation. Do not use them interchangeably.", "section": "colors" },
-      { "name": "The Bone Interruption Rule", "body": "Light surfaces are deliberate chapter changes, not a default card color.", "section": "colors" },
-      { "name": "The Three-Instrument Rule", "body": "Use condensed display for identity, Clash for narrative and titles, and monospace only for recorded metadata.", "section": "typography" },
-      { "name": "The Ledger-Not-Grid Rule", "body": "Repeated work belongs in ruled rows with dates, access, evidence, and actions aligned to a shared axis; do not convert it into a generic card grid.", "section": "layout" },
-      { "name": "The No-Lift Rule", "body": "Never add card shadows or hover elevation. Change color, rule position, or padding to show state.", "section": "elevation" },
-      { "name": "The Instrument-Corner Rule", "body": "Controls and containers stay square; circular forms must communicate measurement or detection.", "section": "shapes" }
+      { "name": "The Biological Signal Rule", "body": "Cyan connects, chlorophyll grows, and ember fruits. A component does not swap those meanings for novelty.", "section": "colors" },
+      { "name": "The Chapter Field Rule", "body": "Color owns full habitats—peat hero, moon roots, aubergine archive, green tissue—instead of appearing as scattered accent confetti.", "section": "colors" },
+      { "name": "The Living Letter Rule", "body": "Display type may overlap the organism and compress vertically, but narrative copy stays unwarped and calmly measured.", "section": "typography" },
+      { "name": "The Rooted Sequence Rule", "body": "Repeated information joins a shared connective structure. It does not become a free-floating card collection.", "section": "layout" },
+      { "name": "The Material Before Glow Rule", "body": "A glow may reveal a root or spore; it cannot substitute for the material the focal element promises.", "section": "elevation" },
+      { "name": "The Organism-Only Curve Rule", "body": "Organic radii belong to something alive or to an action framed as a seed; ordinary information does not receive a decorative blob container.", "section": "shapes" }
     ],
     "dos": [
-      "Do make evidence visible through numbers, dates, access states, plotted data, and technical readouts.",
-      "Do keep actions, tags, ledgers, and information surfaces square and shadowless.",
-      "Do use orange for primary energy and acid for calibration, focus, and confirmation.",
-      "Do preserve the complete static detector frame and near-instant state changes when reduced motion is requested.",
-      "Do keep public and private project states explicit and readable."
+      "Do make verified numbers, dates, and access states part of the organism rather than a separate dashboard.",
+      "Do keep raster material separate from semantic text and responsive interaction.",
+      "Do reserve ember for rare, concentrated fruiting signals.",
+      "Do provide a complete static composition when reduced motion is requested.",
+      "Do reflow root systems into one clear stream on small screens."
     ],
     "donts": [
-      "Don't fall back to a centered developer hero followed by a generic card grid.",
-      "Don't add rounded pills, soft cards, glassmorphism, or ambient drop shadows.",
-      "Don't use the monospace face for narrative paragraphs or the condensed face for dense reading.",
-      "Don't animate the chamber for coarse pointers, offscreen visitors, or reduced-motion users.",
-      "Don't hide evidence behind purely decorative motion or inaccessible interactions."
+      "Don't load approved comps as production backgrounds or rasterize semantic UI.",
+      "Don't rebuild the world as neon gradients, particles, a terminal, or a command dashboard.",
+      "Don't use glass panels, repeated equal cards, gradient text, or decorative eyebrow labels.",
+      "Don't introduce generic rounded rectangles into the specimen archive.",
+      "Don't animate offscreen or make motion carry information unavailable in the static document."
     ]
   }
 }
