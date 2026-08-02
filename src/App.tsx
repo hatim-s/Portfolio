@@ -8,9 +8,7 @@ import {
   FiMail,
 } from "react-icons/fi";
 import { SiLeetcode } from "react-icons/si";
-import EventChamber from "./components/EventChamber";
 import resume from "./assets/docs/Resume_Hatim Shakir.pdf";
-import detectorAsset from "./assets/event-chamber-detector.jpg";
 import {
   archive,
   contributionMonths,
@@ -21,202 +19,216 @@ import "./App.css";
 
 const contributionMax = Math.max(...contributionMonths.map(([, value]) => value));
 
+const PaperPlane = ({ className = "" }: { className?: string }) => (
+  <svg
+    className={className}
+    viewBox="0 0 720 420"
+    fill="none"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <path className="plane-underprint plane-underprint-cyan" d="M28 168 680 27 474 376 338 246 28 168Z" />
+    <path className="plane-underprint plane-underprint-magenta" d="M42 186 692 43 489 392 352 263 42 186Z" />
+    <path className="plane-paper" d="M22 154 674 14 469 362 331 233 22 154Z" />
+    <path className="plane-fold" d="m22 154 309 79L674 14 381 274l88 88-138-129" />
+    <path className="plane-screen" d="m331 233 143 137-5-8L674 14 331 233Z" />
+  </svg>
+);
+
+const FilmPerforations = () => (
+  <div className="film-perforations" aria-hidden="true">
+    {Array.from({ length: 24 }, (_, index) => <i key={index} />)}
+  </div>
+);
+
 const App = () => {
   return (
     <div className="site-shell">
-      <a className="skip-link" href="#main-content">
-        Skip to work
-      </a>
+      <a className="skip-link" href="#main-content">Skip to the work</a>
 
       <header className="site-header">
+        <FilmPerforations />
         <a className="brand-mark" href="#top" aria-label="Hatim Shakir, home">
-          HS<span>/26</span>
+          HS<span>／CUT 26</span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#experience"><span>02</span> Experience</a>
-          <a href="#projects"><span>03</span> Projects</a>
-          <a href="#signal"><span>04</span> Signal</a>
-          <a href="#contact"><span>05</span> Contact</a>
+          <a href="#experience">Dossier</a>
+          <a href="#projects">Pictures</a>
+          <a href="#signal">Contact sheet</a>
+          <a href="#contact">Credits</a>
         </nav>
         <a className="header-mail" href="mailto:hatimcodes@gmail.com">
-          Available for a good problem <FiArrowUpRight aria-hidden="true" />
+          Start a conversation <FiArrowUpRight aria-hidden="true" />
         </a>
       </header>
 
       <main id="main-content">
         <section className="hero" id="top" aria-labelledby="hero-title">
-          <nav className="hero-ruler" aria-label="Event recorder index">
-            <a href="#top" aria-current="page"><span>01</span><i aria-hidden="true" /> Home</a>
-            <a href="#experience"><span>02</span><i aria-hidden="true" /> About</a>
-            <a href="#projects"><span>03</span><i aria-hidden="true" /> Work</a>
-            <a href="#signal"><span>04</span><i aria-hidden="true" /> Signal</a>
-            <a href="#contact"><span>05</span><i aria-hidden="true" /> Info</a>
-          </nav>
-
-          <div className="hero-copy">
+          <div className="hero-black">
+            <div className="leader-code" aria-hidden="true">
+              ROLL 26 · SCENE 001 · TAKE 07
+            </div>
             <h1 id="hero-title">
-              <span>Hatim</span>
-              <span>Shakir</span>
+              <span className="name-strip name-strip-one">Hatim</span>
+              <span className="name-strip name-strip-two">Shakir</span>
             </h1>
-            <p className="hero-role">Software engineer for systems that reason, react, and ship.</p>
+            <p className="hero-thesis">
+              I direct complex systems from first state to final frame.
+            </p>
             <p className="hero-intro">
-              I work across AI-native products, enterprise workflow platforms,
-              developer tools, and the contracts beneath them—state, schemas,
-              runtimes, and release paths included.
+              AI-native products, enterprise workflow platforms, developer tools,
+              and the contracts beneath them—designed to reason, react, and ship.
             </p>
             <a className="primary-action" href="#projects">
-              Enter the work <FiArrowDownRight aria-hidden="true" />
+              Cut to the projects <FiArrowDownRight aria-hidden="true" />
             </a>
           </div>
 
-          <div className="chamber-wrap">
-            <img
-              className="chamber-plate"
-              src={detectorAsset}
-              alt=""
-              aria-hidden="true"
-              decoding="async"
-            />
-            <EventChamber className="event-chamber" />
-            <div className="chamber-frame" aria-hidden="true" />
-            <div className="chamber-label chamber-label-a" aria-hidden="true">
-              PRIVATE SIGNAL / 3954
-            </div>
-            <div className="chamber-label chamber-label-b" aria-hidden="true">
-              JUL PEAK / 1988
-            </div>
-            <div className="chamber-telemetry" aria-hidden="true">
-              <strong>Subsystems</strong>
-              <span>TRK&nbsp;&nbsp;OK</span>
-              <span>CAL&nbsp;&nbsp;OK</span>
-              <span>FLOW&nbsp;OK</span>
-              <span>REL&nbsp;&nbsp;OK</span>
-            </div>
-            <div className="event-count" aria-hidden="true">
-              EVC REC <strong>0004176</strong>
-            </div>
+          <div className="hero-yellow" aria-hidden="true">
+            <div className="hero-note">ENGINEERING IS A MOVING PICTURE.</div>
+            <div className="registration-mark registration-mark-a" />
+            <div className="registration-mark registration-mark-b" />
+            <PaperPlane className="hero-plane" />
+            <div className="flight-line" />
           </div>
 
           <dl className="hero-readouts" aria-label="GitHub activity from August 2025 to August 2026">
             <div>
               <dt>Contributions</dt>
               <dd>4,176</dd>
+              <span aria-hidden="true">TC 00:04:17:06</span>
             </div>
             <div>
               <dt>Active days</dt>
               <dd>345</dd>
+              <span aria-hidden="true">FRAME 345</span>
             </div>
             <div>
               <dt>Longest streak</dt>
               <dd>97 days</dd>
+              <span aria-hidden="true">CONTINUOUS TAKE</span>
             </div>
             <div>
-              <dt>Private signal</dt>
+              <dt>Private / restricted</dt>
               <dd>3,954</dd>
+              <span aria-hidden="true">SOURCE WITHHELD</span>
             </div>
           </dl>
+
+          <div className="hero-leader" aria-hidden="true">
+            <FilmPerforations />
+            <span>OPENING TITLE</span><span>DIRECTOR / ENGINEER</span><span>02 AUG 2026</span>
+          </div>
         </section>
 
-        <section className="experience-section" id="experience" aria-labelledby="experience-title" data-run="RUN / 02">
-          <div className="detector-spine" aria-hidden="true"><span data-marker="02A" /><span data-marker="02B" /><span data-marker="02C" /></div>
-          <div className="section-heading">
-            <h2 id="experience-title">Where the signal compounds.</h2>
+        <section className="experience-section paper-surface" id="experience" aria-labelledby="experience-title">
+          <header className="section-heading dossier-heading">
+            <h2 id="experience-title">The work behind the blackout.</h2>
             <p>
-              The contribution history is unusually concentrated: the core web
-              platform, AI runtime and workflow tooling, then the schema and
-              release contracts that make the experience real.
+              Public evidence shows a wide ownership surface. Private implementation
+              stays private; the recurring product and delivery patterns remain visible.
             </p>
-          </div>
+          </header>
 
-          <article className="unify-record">
-            <header className="experience-header">
-              <div>
-                <h3><span>UnifyApps /</span> Software Engineer</h3>
+          <article className="unify-dossier">
+            <div className="dossier-cover">
+              <div className="dossier-clip" aria-hidden="true" />
+              <p className="dossier-file">UA / FILE 2025—NOW</p>
+              <h3>UnifyApps</h3>
+              <p className="dossier-role">Software Engineer · Enterprise AI platform</p>
+              <p className="dossier-summary">
+                At least a thousand authored pull requests surfaced in the latest
+                accessible history. The pattern points to ownership across the product
+                loop—from how an AI agent shapes a workflow to how that workflow
+                validates, renders, and reaches UAT and live.
+              </p>
+              <div className="redaction-stack" aria-hidden="true">
+                <i /><i /><i /><i />
               </div>
-              <p className="experience-meta">2025—Now / Enterprise AI platform</p>
-            </header>
-            <p className="experience-summary">
-              At least a thousand authored pull requests surfaced in the latest
-              accessible history. The pattern points to ownership across the
-              product loop—from how an AI agent shapes a workflow to how that
-              workflow validates, renders, and reaches UAT and live.
-            </p>
+              <span className="dossier-stamp">EVIDENCE / NOT EXPOSURE</span>
+            </div>
 
-            <div className="ownership-map">
+            <div className="ownership-scenes">
               {unifyAreas.map((area, index) => (
-                <article className="ownership-band" key={area.title}>
-                  <div className="ownership-index" aria-hidden="true">
-                    {String(index + 1).padStart(2, "0")}
-                  </div>
-                  <div>
-                    <h4>
-                      {area.title}
-                      <span>{area.signal}</span>
-                    </h4>
-                  </div>
+                <article className={`ownership-scene ownership-scene-${index + 1}`} key={area.title}>
+                  <div className="scene-tab" aria-hidden="true">REEL {String(index + 1).padStart(2, "0")}</div>
+                  <h4>{area.title}</h4>
+                  <p className="ownership-signal">{area.signal}</p>
                   <p>{area.description}</p>
-                  <p className="evidence">{area.evidence}</p>
+                  <p className="evidence-line"><span>Evidence</span>{area.evidence}</p>
                 </article>
               ))}
             </div>
           </article>
 
-          <article className="salesforce-record">
-            <div>
-              <h3><span>Salesforce /</span> Software Engineering Intern · Lightning Web Security</h3>
+          <article className="salesforce-strip">
+            <div className="salesforce-title">
+              <span>PREVIOUS PRODUCTION</span>
+              <h3>Salesforce</h3>
             </div>
+            <p className="salesforce-role">
+              Software Engineering Intern · Lightning Web Security<br />May—July 2023 · Hyderabad
+            </p>
             <p>
               Built LWS Copilot, a VS Code refactoring tool that used generative AI
               to help developers move code toward Lightning Web Security compliance.
             </p>
-            <p className="experience-meta">May—July 2023 / Hyderabad</p>
           </article>
         </section>
 
-        <section className="projects-section" id="projects" aria-labelledby="projects-title" data-run="RUN / 03">
-          <div className="detector-spine" aria-hidden="true"><span data-marker="03A" /><span data-marker="03B" /><span data-marker="03C" /></div>
-          <div className="section-heading projects-heading">
-            <h2 id="projects-title">Built in reverse chronological order.</h2>
+        <section className="projects-section" id="projects" aria-labelledby="projects-title">
+          <div className="projects-title-field">
+            <h2 id="projects-title">Eleven pictures. Newest cut first.</h2>
             <p>
-              Public repositories open outward. Private builds disclose the product
-              and architecture without pretending their source is public.
+              Each product is treated as its own production—not another interchangeable
+              tile. Public source opens outward; private builds disclose only their real
+              product and architecture.
             </p>
+            <span aria-hidden="true">PROGRAMME / 2026—2025</span>
           </div>
 
-          <div className="project-ledger">
+          <div className="project-programme">
             {projects.map((project, index) => (
-              <article className="project-row" key={project.name}>
-                <div className="project-number" aria-hidden="true">
+              <article className={`project-poster poster-${(index % 5) + 1}`} key={project.name}>
+                <div className="poster-frame" aria-hidden="true">
+                  <span>SCENE {String(index + 1).padStart(2, "0")}</span>
+                  <span>{project.year}</span>
+                  <span>24 FPS</span>
+                </div>
+                <div className="poster-index" aria-hidden="true">
                   {String(index + 1).padStart(2, "0")}
                 </div>
-                <div className="project-date">
+                <div className="poster-copy">
                   <time dateTime={project.date}>{project.date}</time>
-                  <span>{project.access}</span>
-                </div>
-                <div className="project-main">
                   <h3>{project.name}</h3>
                   <p>{project.description}</p>
-                  <ul aria-label={`${project.name} technologies`}>
-                    {project.stack.map((item) => (
-                      <li key={item}>{item}</li>
+                </div>
+                <div className="poster-architecture">
+                  <span className="access-stamp">{project.access}</span>
+                  <ul aria-label={`${project.name} technology sequence`}>
+                    {project.stack.map((item, itemIndex) => (
+                      <li key={item}>
+                        <span aria-hidden="true">{String.fromCharCode(65 + itemIndex)}</span>
+                        {item}
+                      </li>
                     ))}
                   </ul>
                 </div>
-                <div className="project-links">
+                <div className="poster-actions">
                   {project.repository ? (
                     <a href={project.repository} target="_blank" rel="noreferrer">
-                      <span className="sr-only">View {project.name} </span>
                       Source <FiGithub aria-hidden="true" />
+                      <span className="sr-only"> for {project.name}</span>
                     </a>
                   ) : (
-                    <span>
-                      Private <FiLock aria-hidden="true" />
+                    <span className="private-action">
+                      Source private <FiLock aria-hidden="true" />
                     </span>
                   )}
                   {project.live && (
                     <a href={project.live} target="_blank" rel="noreferrer">
-                      <span className="sr-only">Open {project.name} </span>
-                      Live <FiArrowUpRight aria-hidden="true" />
+                      Open live <FiArrowUpRight aria-hidden="true" />
+                      <span className="sr-only"> {project.name}</span>
                     </a>
                   )}
                 </div>
@@ -224,9 +236,12 @@ const App = () => {
             ))}
           </div>
 
-          <div className="archive-block">
-            <h3>Earlier systems</h3>
-            <div className="archive-list">
+          <div className="archive-reel">
+            <div className="archive-title">
+              <h3>Earlier systems / archive reel</h3>
+              <p>Operating systems, compilers, databases, networking, simulation, and the web.</p>
+            </div>
+            <div className="archive-timeline">
               {archive.map(([date, name, description, url]) => (
                 <a href={url} target="_blank" rel="noreferrer" key={name}>
                   <time dateTime={date}>{date.slice(0, 4)}</time>
@@ -239,49 +254,56 @@ const App = () => {
           </div>
         </section>
 
-        <section className="signal-section" id="signal" aria-labelledby="signal-title" data-run="RUN / 04">
-          <div className="detector-spine" aria-hidden="true"><span data-marker="04A" /><span data-marker="04B" /><span data-marker="04C" /></div>
-          <div className="signal-copy">
-            <h2 id="signal-title">The graph is not a streak. It is a working rhythm.</h2>
+        <section className="signal-section" id="signal" aria-labelledby="signal-title">
+          <header className="signal-heading">
+            <h2 id="signal-title">A year, cut into contact frames.</h2>
             <p>
-              A one-year authenticated snapshot shows 4,176 contributions across
-              345 active days. Most activity is private—enterprise work and private
-              product builds—so the public profile only shows the edge of the field.
+              The authenticated snapshot records 4,176 contributions across 345 active
+              days. Most activity is private—enterprise work and private product builds—
+              so the public profile only shows the edge of the reel.
             </p>
-            <p className="signal-period">Snapshot: 02 Aug 2025—02 Aug 2026</p>
-            <p className="signal-method">
-              Thirteen slices include two partial boundary months. Bar height uses
-              square-root scaling. GraphQL total: 4,176; calendar-day bars: 4,174.
-            </p>
-          </div>
+          </header>
 
-          <ol className="signal-chart" aria-label="Calendar-day contributions by month, square-root scale">
-            {contributionMonths.map(([month, value]) => (
-              <li className="signal-month" key={month}>
-                <span className="signal-value">{value}</span>
-                <div className="signal-track">
+          <ol className="contact-sheet" aria-label="Calendar-day contributions by month, square-root scale">
+            {contributionMonths.map(([month, value], index) => (
+              <li className="contact-frame" key={month}>
+                <div className="contact-timecode" aria-hidden="true">
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <span>TC {String(value).padStart(4, "0")}</span>
+                </div>
+                <div className="contact-exposure">
                   <span
-                    style={{ height: `${Math.max(4, Math.sqrt(value / contributionMax) * 100)}%` }}
+                    style={{ height: `${Math.max(7, Math.sqrt(value / contributionMax) * 100)}%` }}
                     aria-hidden="true"
                   />
+                  <strong>{value}</strong>
                 </div>
-                <span className="signal-name">{month}</span>
+                <span className="contact-month">{month}</span>
               </li>
             ))}
           </ol>
+
+          <div className="signal-method">
+            <p>Snapshot: 02 Aug 2025—02 Aug 2026</p>
+            <p>
+              Thirteen slices include two partial boundary months. Bar height uses
+              square-root scaling. GraphQL total: 4,176; calendar-day frames: 4,174.
+            </p>
+            <a href="https://github.com/hatim-s" target="_blank" rel="noreferrer">
+              Inspect the public edge <FiArrowUpRight aria-hidden="true" />
+            </a>
+          </div>
         </section>
 
-        <section className="contact-section" id="contact" aria-labelledby="contact-title" data-run="RUN / 05">
-          <div className="detector-spine" aria-hidden="true"><span data-marker="05A" /><span data-marker="05B" /><span data-marker="05C" /></div>
-          <div>
-            <h2 id="contact-title">Bring a hard system.</h2>
-            <p>
-              Especially one where product, data, agents, and interface refuse to
-              stay in separate boxes.
-            </p>
-          </div>
+        <section className="contact-section paper-surface" id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Bring a hard system. I’ll bring the edit.</h2>
+          <p>
+            Especially one where product, data, agents, and interface refuse to stay
+            in separate boxes.
+          </p>
+          <div className="closing-mark" aria-hidden="true">THE END / BEGIN AGAIN</div>
           <div className="contact-actions">
-            <a href="mailto:hatimcodes@gmail.com">
+            <a className="contact-primary" href="mailto:hatimcodes@gmail.com">
               <FiMail aria-hidden="true" /> Email Hatim
             </a>
             <a href={resume} target="_blank" rel="noreferrer">
@@ -301,8 +323,9 @@ const App = () => {
       </main>
 
       <footer>
-        <p>Hatim Shakir · Software engineer</p>
-        <p>Built with React, TypeScript, and a suspicious amount of plotted signal.</p>
+        <FilmPerforations />
+        <p>Hatim Shakir · Software engineer · Hyderabad, India</p>
+        <p>React, TypeScript, and every frame directed by hand.</p>
       </footer>
     </div>
   );

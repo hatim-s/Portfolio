@@ -1,3 +1,7 @@
+@import "@fontsource/barlow-condensed/500.css";
+@import "@fontsource/barlow-condensed/600.css";
+@import "@fontsource/barlow-condensed/700.css";
+
 @font-face {
   font-family: "Clash Display";
   src: url("./assets/fonts/clash-display/fonts/ClashDisplay-Variable.woff2") format("woff2");
@@ -8,18 +12,19 @@
 
 :root {
   font-family: "Clash Display", sans-serif;
-  color: #eeeada;
-  background: #061129;
+  color: #f2e8cd;
+  background: #0a0908;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --ink: #061129;
-  --ink-2: #020814;
-  --blue: #173fd1;
-  --blue-electric: #214bd8;
-  --orange: #ff5600;
-  --bone: #eeeada;
-  --acid: #d7ff1f;
-  --muted: #aeb9d8;
+  --projector: #0a0908;
+  --projector-soft: #17130f;
+  --paper: #f2e8cd;
+  --paper-deep: #d8c9a2;
+  --yellow: #ffc900;
+  --cyan: #00bddd;
+  --magenta: #f3006f;
+  --vermilion: #f04420;
+  --focus: #00d7ff;
 }
 
 * {
@@ -27,16 +32,18 @@
 }
 
 html {
-  background: var(--ink);
-  scrollbar-color: var(--orange) var(--ink-2);
+  background: var(--projector);
+  color-scheme: dark;
+  scrollbar-color: var(--yellow) var(--projector);
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  overflow-x: hidden;
-  background: var(--ink);
+  overflow-x: clip;
+  background: var(--projector);
 }
 
 body,
@@ -61,13 +68,13 @@ button {
 }
 
 ::selection {
-  color: var(--ink);
-  background: var(--acid);
+  color: var(--projector);
+  background: var(--cyan);
 }
 
 :focus-visible {
-  outline: 3px solid var(--acid);
-  outline-offset: 4px;
+  outline: 3px solid var(--focus);
+  outline-offset: 5px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -78,8 +85,8 @@ button {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
 }

@@ -1,34 +1,29 @@
 ---
 name: Hatim Shakir Portfolio
-description: A particle-collider event recorder for engineering work, ownership, and signal.
+description: A kinetic paper-cinema title sequence for complex systems, evidence, and engineering work.
 colors:
-  ink: "#061129"
-  ink-2: "#020814"
-  blue: "#173fd1"
-  blue-electric: "#214bd8"
-  orange: "#ff5600"
-  bone: "#eeeada"
-  acid: "#d7ff1f"
-  muted: "#aeb9d8"
+  projector-black: "#0a0908"
+  projector-soft: "#17130f"
+  uncoated-cream: "#f2e8cd"
+  paper-deep: "#d8c9a2"
+  cadmium-yellow: "#ffc900"
+  process-cyan: "#00bddd"
+  hot-magenta: "#f3006f"
+  vermilion: "#f04420"
+  focus-cyan: "#00d7ff"
 typography:
   display:
-    fontFamily: '"Barlow Condensed", "Arial Narrow", sans-serif'
-    fontSize: "clamp(7rem, 12vw, 12rem)"
-    fontWeight: 600
-    lineHeight: 0.68
-    letterSpacing: "-0.025em"
+    fontFamily: '"Barlow Condensed", sans-serif'
+    fontSize: "clamp(5.5rem, 18vw, 16rem)"
+    fontWeight: 700
+    lineHeight: 0.73
+    letterSpacing: "-0.035em"
   headline:
-    fontFamily: '"Clash Display", sans-serif'
-    fontSize: "clamp(3rem, 6vw, 6rem)"
-    fontWeight: 650
-    lineHeight: 0.9
-    letterSpacing: "-0.04em"
-  title:
-    fontFamily: '"Clash Display", sans-serif'
-    fontSize: "clamp(2.4rem, 5vw, 5.7rem)"
-    fontWeight: 650
-    lineHeight: 0.9
-    letterSpacing: "-0.04em"
+    fontFamily: '"Barlow Condensed", sans-serif'
+    fontSize: "clamp(4rem, 17vw, 7.5rem)"
+    fontWeight: 700
+    lineHeight: 0.82
+    letterSpacing: "-0.035em"
   body:
     fontFamily: '"Clash Display", sans-serif'
     fontSize: "1rem"
@@ -36,172 +31,166 @@ typography:
     lineHeight: 1.55
   label:
     fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    fontSize: "0.68rem"
-    fontWeight: 500
+    fontSize: "0.58rem"
+    fontWeight: 600
     lineHeight: 1.5
-    letterSpacing: "0.06em"
+    letterSpacing: "0.075em"
 rounded:
   square: "0"
+spacing:
+  action-min: "44px"
+  section-mobile: "1rem"
+  section-wide: "clamp(2rem, 6vw, 7rem)"
 components:
-  button-primary:
-    backgroundColor: "{colors.orange}"
-    textColor: "{colors.ink-2}"
+  action-primary:
+    backgroundColor: "{colors.vermilion}"
+    textColor: "{colors.projector-black}"
     typography: "{typography.body}"
     rounded: "{rounded.square}"
-    padding: "0.95rem 1.05rem 0.95rem 1.35rem"
+    padding: "0.9rem 1.15rem"
     height: "4rem"
-  button-primary-hover:
-    backgroundColor: "{colors.acid}"
-    textColor: "{colors.ink}"
+  evidence-frame:
+    backgroundColor: "{colors.uncoated-cream}"
+    textColor: "{colors.projector-black}"
     rounded: "{rounded.square}"
-  calibration-tag:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.acid}"
-    typography: "{typography.label}"
+    padding: "1rem"
+  project-action:
+    backgroundColor: "{colors.projector-black}"
+    textColor: "{colors.uncoated-cream}"
     rounded: "{rounded.square}"
-    padding: "0.35rem 0.5rem"
-  project-ledger-row:
-    backgroundColor: "{colors.ink-2}"
-    textColor: "{colors.bone}"
-    rounded: "{rounded.square}"
-    padding: "clamp(1.4rem, 3vw, 3rem)"
+    padding: "0.75rem 0.9rem"
+    height: "3rem"
 ---
 
 # Design System: Hatim Shakir Portfolio
 
 ## Overview
 
-**Creative North Star: "The Recorded Event Chamber"**
+**Creative North Star: "Paper Cinema / Kinetic Cut-and-Paste"**
 
-This system treats engineering as a recorded event: decisions leave trajectories from state and schema through interface and release. It is cinematic, technical, and densely instrumented, using a particle-detector image, a live canvas trace field, measured labels, and verified activity readouts as the visual proof layer.
+The interface behaves like an experimental opening-title sequence colliding with an engineering production notebook. Every section is directed as a distinct scene: paper stages tear into one another, evidence is framed as contact stock, private work is handled as a dossier, and projects become one-sheets rather than interchangeable cards.
 
-The world is maximal without becoming ornamental. Monumental condensed type collides with narrow rails and plotted signal; hot-orange control planes cut through ultramarine and near-black fields; bone reading surfaces interrupt the dark run. It explicitly refuses the generic developer hero and repeated floating-card grid.
+The world is physical but not nostalgic. Scanned uncoated paper supplies real material; typography, planes, timecode, redactions, registration, and diagrams stay crisp and semantic. Maximal composition is balanced by strong reading order, strict factual language, and explicit public/private states.
 
 **Key Characteristics:**
 
-- Monumental condensed naming overlaps the detector field.
-- Dense rails, ticks, rules, telemetry, and plotted data make evidence visible.
-- Hot orange drives actions and major signal; chartreuse marks calibration and focus.
-- Square instrument controls and hard section boundaries preserve mechanical precision.
-- Public and private work share one newest-first ledger without misrepresenting access.
+- Projector-black and cream establish the film stock; saturated process colors own complete scenes.
+- Compressed title lettering is monumental, while narrative text remains calm and readable.
+- Hard color cuts, torn silhouettes, misregistration, and contact frames replace generic containers.
+- Motion is sparse and native to the world: one stop-motion flight and scroll-exposed contribution frames.
 
 ## Colors
 
-The palette behaves like detector hardware under ultraviolet light: two ink depths carry the chamber, two ultramarines separate systems, bone carries readable matter, and orange plus acid mark different levels of urgency.
+This is a full-palette system: black and cream are the stock, while yellow, cyan, magenta, and vermilion behave like separate print passes.
 
 ### Primary
 
-- **Hot Control Orange:** The dominant action and recorded-signal color for the primary action, active indices, ownership axes, the signal section, and selected detector tracks.
+- **Cadmium Action Yellow:** carries the paper-flight stage, major project scenes, and selected evidence.
+- **Projector Black:** the continuous film base, body text on light stock, and high-contrast control field.
 
 ### Secondary
 
-- **Ultramarine Structure:** The grounded blue field used for archive bands, branded evidence, and structural separation.
-- **Electric Ultramarine:** The brighter blue used for contact, interactive ledger states, and energetic depth.
-
-### Tertiary
-
-- **Calibration Acid:** A rare chartreuse used for focus outlines, calibration corners, detector points, selection, and hover confirmation.
+- **Process Cyan:** owns programme transitions, selected data, and keyboard focus.
+- **Hot Magenta:** owns one-sheet scenes, misregistration, and the contribution/contact rhythm.
+- **Vermilion:** carries primary actions, evidence stamps, and hard chapter cuts.
 
 ### Neutral
 
-- **Deep Instrument Ink:** The main page field and dark text on light or high-energy surfaces.
-- **Void Ink:** The deepest section and telemetry surface, used where the signal needs maximum contrast.
-- **Warm Detector Bone:** Primary reading color on dark fields and the full experience-section surface.
-- **Cool Readout Muted:** Secondary labels and low-priority telemetry on dark fields.
+- **Uncoated Cream:** primary paper, light-stage copy, and the verified evidence reel.
+- **Paper Deep:** low-priority copy on projector black.
 
 ### Named Rules
 
-**The Split-Signal Rule.** Orange means action or primary recorded energy; acid means calibration, focus, or confirmation. Do not use them interchangeably.
+**The Whole-Pass Rule.** A process color owns a plane or scene; it is not sprinkled across neutral cards as decoration.
 
-**The Bone Interruption Rule.** Light surfaces are deliberate chapter changes, not a default card color.
+**The Evidence Contrast Rule.** Facts sit on black or cream stock with direct contrast. Halftones never run behind unprotected reading copy.
 
 ## Typography
 
-**Display Font:** Barlow Condensed (with Arial Narrow and sans-serif fallbacks)<br>
-**Body Font:** Clash Display (with sans-serif fallback)<br>
+**Display Font:** Barlow Condensed (with sans-serif fallback)
+
+**Body Font:** Clash Display (with sans-serif fallback)
+
 **Label/Mono Font:** UI monospace (with SFMono-Regular, Menlo, Monaco, Consolas, and monospace fallbacks)
 
-**Character:** Barlow Condensed turns the name into monumental equipment labeling. Clash Display carries assertive editorial reading, while the monospace layer makes dates, indices, evidence, and telemetry feel recorded rather than decorated.
+**Character:** Barlow Condensed supplies film-title compression and poster scale. Clash Display keeps prose contemporary and human. Monospace is reserved for dates, timecode, evidence, and measurement.
 
 ### Hierarchy
 
-- **Display:** Semibold, tightly tracked, uppercase, and compressed vertically; reserved for the two-line first-viewport name and allowed to overlap the event chamber.
-- **Headline:** Heavy, tightly tracked section statements with balanced wrapping and short measures, typically no more than 8–13 characters per line.
-- **Title:** Large project and record names that carry the same compressed rhythm at a smaller scale.
-- **Body:** Regular Clash Display for explanations, typically limited to 43–65 characters per line and set at a readable 1.45–1.55 line height.
-- **Label:** Small uppercase monospace with open tracking for dates, run numbers, telemetry, access states, evidence, and chart coordinates.
+- **Display:** heavy, compressed, uppercase, and allowed to exceed the conventional web scale for names and one-sheets.
+- **Headline:** large condensed statements with a tight 0.82 line height and balanced wrapping.
+- **Body:** regular Clash Display at a 1rem floor and 1.55 line height, generally held under 65 characters.
+- **Label:** small uppercase monospace for timecode, dates, access, and technical measurement only.
 
 ### Named Rules
 
-**The Three-Instrument Rule.** Use condensed display for identity, Clash for narrative and titles, and monospace only for recorded metadata.
+**The Three-Voice Rule.** Condensed type directs, Clash explains, and monospace records. Never trade their roles for variety.
+
+**The Real-Word Rule.** Poster titles wrap only at genuine word boundaries; never fracture a name to preserve scale.
 
 ## Layout
 
-The desktop first viewport is a four-part instrument: numbered rail, narrative and monumental name, dense chamber, then verified edge readouts. The main sections use asymmetric two-column grids, offset evidence bands, hard ledger rows, and vertical detector spines instead of centered card collections. Repeated 1px rules establish alignment and continuity.
+Desktop opens as three simultaneous stages: black title, yellow paper flight, and cream evidence reel. At tablet widths the evidence reel becomes a full-width four-frame strip. At mobile the same story becomes sequential—title, flight, then 2×2 evidence—without hiding content.
 
-Section padding follows a fluid block and inline rhythm. At the 1100px breakpoint, the header simplifies, readouts move over the chamber, ownership and project ledgers reduce columns, and the signal section becomes a single column. At 760px, the numbered rail and secondary navigation items disappear, the chamber moves behind the copy, readouts become a 2×2 block, ledgers become two-column records, and month labels turn vertical. Touch-bearing links remain at least 2.75rem high, with principal controls at 4rem or more.
+Sections use scene-specific topology rather than a shared container. The dossier layers a black case file over cream stock and peels into four color planes. Project one-sheets alternate copy and architecture positions at wide widths. The contribution contact sheet uses seven frames over six offset frames on desktop and a readable two-column sequence on mobile.
 
-**The Ledger-Not-Grid Rule.** Repeated work belongs in ruled rows with dates, access, evidence, and actions aligned to a shared axis; do not convert it into a generic card grid.
+Section inline space moves from 1rem on narrow screens to a fluid 2–7rem range. Principal controls are at least 44px tall; sticky navigation appears only where desktop space can support it.
 
 ## Elevation & Depth
 
-The system has no ambient drop shadows. Depth comes from near-black and ultramarine tonal layers, translucent overlays, 1px rule lines, a fixed particle texture, image/canvas screen blending, and the occasional inset ring used only inside circular detector markers. Surfaces remain flat at rest; hover states change field color rather than lifting.
+There is no card elevation system. Depth comes from real paper texture, clipped/torn silhouettes, overlap, misregistered cyan/magenta underprints, color-field cuts, and a single soft drop shadow beneath the paper plane. Surfaces do not lift on hover.
 
-**The No-Lift Rule.** Never add card shadows or hover elevation. Change color, rule position, or padding to show state.
+**The Physical-Layer Rule.** If depth appears, it must describe stacked paper or ink registration; ambient glass, glowing halos, and generic hover elevation do not belong.
 
 ## Shapes
 
-The dominant form language is square and rectilinear: actions, tags, telemetry plates, ledger rows, readout blocks, and section fields use zero radius. Hairline borders and hard full-width boundaries make the interface feel calibrated. Circles are reserved for detector geometry—rail nodes, plotted rings, and the event core—and are not a general component radius.
-
-**The Instrument-Corner Rule.** Controls and containers stay square; circular forms must communicate measurement or detection.
+Controls and evidence frames stay square. Irregularity comes from clipped paper perimeters, not rounded containers. Circles are reserved for registration and measurement marks. The signature paper plane is exact SVG geometry with cream stock, black folds, and process-color underprints.
 
 ## Components
 
-### Primary Action
+### Primary action
 
-- **Shape:** A wide square control with a 4rem minimum height and an arrow held at the far edge.
-- **Default:** Hot-orange field, void-ink text, uppercase Clash label, and asymmetric horizontal padding.
-- **Hover / Focus:** Hover changes the field to calibration acid without lift. Keyboard focus uses the global 3px acid outline with a 4px offset.
+- **Shape:** a wide clipped vermilion paper strip with a 4rem minimum height.
+- **State:** cyan replaces vermilion on hover; a 3px focus-cyan outline with 5px offset serves keyboard focus.
+- **Copy:** direct verb-and-object labels such as “Cut to the projects.”
 
-### Navigation
+### Film navigation
 
-- **Style:** Compact uppercase monospace links sit in a ruled header; orange numerical prefixes connect navigation to the recorder index.
-- **State:** Default links use bone, hover moves to acid, and the hero ruler marks the current item in orange. Mobile removes low-priority destinations instead of squeezing all labels.
+- **Style:** projector-black rail, visible perforations, yellow brand slate, four plain-language destinations, and a cyan contact route.
+- **Responsive:** destination links collapse below tablet widths; the brand remains a 44px home target.
 
-### Calibration Tags
+### Verified evidence reel
 
-- **Style:** Small square, 1px acid-outlined tags with uppercase monospace text and a translucent ink field when laid over the chamber.
-- **Use:** Access state, chamber coordinates, or calibration telemetry only; they are not promotional badges.
+- **Style:** four cream paper frames with black keylines, large condensed figures, and small real timecode/data labels.
+- **Responsive:** vertical edge reel on desktop, 4-up strip on tablet, 2×2 on mobile.
 
-### Project Ledger Rows
+### Production dossier
 
-- **Corner Style:** Full-width, square, ruled records.
-- **Background:** Void ink at rest; hover cycles through electric ultramarine, hot orange, and calibration acid by row.
-- **Depth:** No shadow. Column rules, large index numerals, and the field-color transition provide structure and feedback.
-- **Content:** Number, date/access, title/body/technology labels, then source or live actions. Private records replace unavailable source links with a lock state.
+- **Style:** black case file over textured cream, real redaction geometry, vermilion evidence stamp, then four process-color ownership scenes.
+- **Truth:** blackouts are atmosphere only; all essential ownership and evidence copy remains visible.
 
-### Event Chamber
+### Project one-sheets
 
-The signature component layers a detector photograph, a responsive canvas, circular rings, 96 ticks, seeded particle trajectories, square hit points, a glowing collision core, frame corners, and edge telemetry. Fine tracks are predominantly blue; orange is reserved for selected trajectories and major ticks; acid marks sparse calibration hits. Pointer parallax is disabled for coarse pointers. Animation stops while offscreen, and reduced-motion renders a deterministic static frame.
+- **Style:** full-width scene color, giant title, date, access stamp, technology sequence, and source/live actions.
+- **State:** private work has a non-interactive lock readout rather than a dead source link.
 
-### Signal Chart
+### Contribution contact sheet
 
-Thirteen ruled columns plot monthly contribution volume. Bars rise from a hard baseline with square-root scaling; values and month names use monospace labels. The chart keeps its density on small screens by scrolling horizontally and rotating month labels rather than collapsing into a decorative summary.
+- **Style:** thirteen ruled frames with timecode, value, month, and a square-root-scaled exposure bar.
+- **Motion:** bars expose with stepped view-linked motion; reduced motion shows their complete final state immediately.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** make evidence visible through numbers, dates, access states, plotted data, and technical readouts.
-- **Do** keep actions, tags, ledgers, and information surfaces square and shadowless.
-- **Do** use orange for primary energy and acid for calibration, focus, and confirmation.
-- **Do** preserve the complete static detector frame and near-instant state changes when reduced motion is requested.
-- **Do** keep public and private project states explicit and readable.
+- **Do** let full color fields create the scroll rhythm.
+- **Do** make evidence visible as real numbers, dates, access states, architecture labels, and methodology.
+- **Do** use scanned paper only where the design calls for physical stock.
+- **Do** keep mobile a newly composed sequence, not a scaled desktop frame.
 
 ### Don't:
 
-- **Don't** fall back to a centered developer hero followed by a generic card grid.
-- **Don't** add rounded pills, soft cards, glassmorphism, or ambient drop shadows.
-- **Don't** use the monospace face for narrative paragraphs or the condensed face for dense reading.
-- **Don't** animate the chamber for coarse pointers, offscreen visitors, or reduced-motion users.
-- **Don't** hide evidence behind purely decorative motion or inaccessible interactions.
+- **Don't** turn project one-sheets into a repeated card grid.
+- **Don't** use glass, smooth gradients, rounded floating surfaces, or conventional portfolio minimalism.
+- **Don't** use concept comps as page backgrounds or let synthetic comp details become claims.
+- **Don't** place decorative labels above headings as eyebrows; timecode belongs to actual sequence or measurement.
