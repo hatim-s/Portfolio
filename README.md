@@ -5,15 +5,15 @@ A cinematic, evidence-led portfolio for Hatim Shakir. The interface treats engin
 ## Run locally
 
 ```bash
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
 Production checks:
 
 ```bash
-npm run build
-npm run lint
+bun run build
+bun run lint
 ```
 
 ## Design system
